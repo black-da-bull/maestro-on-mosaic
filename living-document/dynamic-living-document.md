@@ -1,18 +1,22 @@
 Dynamic Living Document: Recursively Structured, Multi-Agent Model for Creative AI Musicology
-Version: 1.1 (Updated with Creative OS Workflow) Date: October 27, 2023 Status: In Progress - Integrating “Creative OS” operational framework.
+Version: 1.2 (Expanded with Sonic Orchestrator Workflow, System Personas, and Auditing Framework) Date: October 27, 2023 Status: In Progress - Integrating granular operational workflows and meta-level auditing.
 
-1. System Overview: The Creative OS
-Core Concept (Creative OS Root): An end-to-end, AI-assisted creative workflow designed to transform a user’s initial creative intent into a fully realized, multi-faceted musical composition. It functions as a sophisticated, collaborative AI system that mimics the dynamic interactions of a human creative team. It leverages specialized AI agents and recursive structural representations to achieve enhanced musical coherence, creative depth, and nuanced compositional flow.
-Overarching Goal: To address and overcome the limitations of current AI music generation systems (e.g., inconsistent long-term coherence, perceived lack of human emotion, limited user control) by integrating distributed creativity, advanced emotion modeling, sophisticated textual prompting mechanisms, and deep human-AI co-compositional synergy into a single, auditable, and peer-reviewable process.
+1. System Overview: The Creative OS (Codename: MoMoney Maestro v3.0g)
+Core Concept (Creative OS Root): An end-to-end, AI-assisted creative workflow, operating as the MoMoney Maestro v3.0g, designed to transform a user’s initial creative seed into a fully realized, multi-faceted musical composition. It functions as a sophisticated, collaborative AI system that mimics the dynamic interactions of a human creative team. It leverages specialized AI agents (SME Councils) and recursive structural representations to achieve enhanced musical coherence, creative depth, and nuanced compositional flow.
+Overarching Goal: To address and overcome the limitations of current AI music generation systems by integrating distributed creativity, advanced emotion modeling, sophisticated textual prompting, and deep human-AI co-compositional synergy into a single, auditable, peer-reviewable, and fully self-contained process.
+Core Frameworks:
+Creative OS: The high-level modular structure for decomposing intent and applying logic.
+Sonic Orchestrator Workflow: The detailed, phase-by-phase Standard Operating Procedure (SOP) for creation from initialization to final archival.
+Sonic Architect Framework: A meta-level system for forensic analysis, memory curation, and ensuring the auditability of the entire creative process.
 Key Paradigms Integrated:
-Multi-Agent Systems (MAS): For distributed creativity and collaborative decision-making through specialized “Councils.”
-Recursive Structures: For hierarchical understanding and generation of musical forms, from micro-motifs to macro-sections, enhancing long-term coherence.
-Large Language Models (LLMs): As the “brain” for AI agents, providing reasoning capabilities and sophisticated decision-making.
+Multi-Agent Systems (MAS): For distributed creativity through specialized “SME Councils” operating in a round-robin fashion with strict guardrails.
+Recursive Structures: For hierarchical understanding and generation of musical forms, including the Recursive Prompt Fusion Stack (RPFS), enhancing long-term coherence.
+Large Language Models (LLMs): As the “brain” for AI agents, providing reasoning and generative capabilities.
 Affective Music Generation (AMG): For creating music designed to evoke specific emotions, used as a core design constraint.
-Text-to-Music Conversion: For translating abstract user prompts and structured blueprints into concrete musical expressions.
+Text-to-Music Conversion: For translating structured blueprints into concrete musical expressions ready for engines like Suno v4.5+.
 Human-AI Co-Composition: For fostering a collaborative creative environment where human artistic intent guides AI contributions throughout an iterative workflow.
 2. The Creative OS Modules: Core Components
-The Creative OS is built upon a series of interconnected modules, each with a specific purpose in the creative pipeline.
+The Creative OS is built upon a series of interconnected modules that prepare the creative intent for the main workflow engine.
 
 2.1. Decomposer Module (Intent Structuring)
 Purpose: To break down the user’s high-level creative intent into structured, machine-readable components.
@@ -33,30 +37,104 @@ Ensure Emotional Coherence:
 Purpose: To apply a layer of structural and emotional logic to the decomposed components, preparing them for generation.
 Process Steps: 5. Activate Meta-Musical Logic: * 5.1. Differentiate the primary creative mode, separating logic for a song (melodic focus) from a rap (rhythmic and lyrical focus). * 5.2. Apply the defined core emotion as a primary design constraint that will govern all subsequent generative decisions. 6. Define Functional Tags: * 6.1. Add specific styling tags to influence performance and production (e.g., [Falsetto Whisper], [Aggressive Delivery]). * 6.2. Validate that these tags are compatible with and will correctly influence the downstream audio generation engines (e.g., Suno, Udio).
 2.3. FrameworkBuilder Module (Agent & Role Assignment)
-Purpose: To assign specialized GPT agent roles (“Councils”) and define the scoring logic that will be used for evaluation and revision.
-Process Steps: 7. SongCouncil Activation: * 7.1. Enable a council of agents with specific roles for melodic compositions: * Lyric Architect: Focuses on narrative structure, rhyme schemes, and lyrical flow. * Vocal Oracle: Evaluates emotional delivery, phrasing, and vocal performance nuances. * Sonic Curator: Assesses the overall musicality, genre consistency, and production potential. * 7.2. Generate a scorecard based on criteria such as structure, emotional resonance, and authenticity. 8. RapCouncil Activation: * 8.1. Enable a council of agents with specific roles for rap compositions: * Lyrical Professor: Analyzes wordplay, metaphors, and lyrical complexity. * Battle Technician: Focuses on flow, cadence, rhythmic patterns, and delivery. * Cultural Critic: Evaluates authenticity, cultural relevance, and genre conventions. * 8.2. Produce detailed lyrical density maps and flow analysis charts for technical evaluation. 9. LyricForgeGPT (Generative Agent): * 9.1. A specialized agent tasked with generating the initial draft of tagged lyrics, complete with embedded emotion cues and performance notes. * 9.2. Outputs the draft in a structured Markdown and/or JSON format, creating a detailed blueprint for the song.
-3. Standard Operating Procedure (SOP) Workflow Engine
-This engine executes the full, iterative creative cycle from initial intent to final archival, utilizing the modules and agents defined above.
+Purpose: To assign specialized GPT agent roles (“SME Councils”) and define the scoring logic that will be used for evaluation and revision. The council runs in a round-robin format with strict enforcement of protocols (UST) and guardrails.
+Agent Councils: 7. SongCouncil Activation: * 7.1. Enable a council of agents for melodic compositions: Lyric Architect, Vocal Oracle, Sonic Curator. * 7.2. Generate and evaluate against a scorecard (structure, emotion, authenticity). 8. RapCouncil Activation: * 8.1. Enable a council of agents for rap compositions: Lyrical Professor, Battle Technician, Cultural Critic. * 8.2. Produce detailed lyrical density maps and flow analysis charts for technical evaluation.
+Council Sub-Tasks (Mini Prompts): Councils can execute specific, granular checks, such as:
+HOOK QUALITY CHECK: Rate hook memorability, emotional impact, and rhythmic catchiness.
+Generative Agent: 9. LyricForgeGPT: A specialized agent that generates the initial draft of tagged lyrics with emotion cues, outputting a Markdown/JSON blueprint.
+3. The Sonic Orchestrator Workflow Framework v1.1beta (SOP Engine)
+This is the detailed, phase-by-phase engine that executes the full, iterative creative cycle.
 
-Process Steps: 10. Define Intent: The user provides the initial seed: the song’s Title and its core emotional payoff. The system confirms the target genre/style. 11. Structure & Embed: The Decomposer and InsightSynthesizer modules run. Metatags for sections ([Verse], [Chorus]) are applied, and initial production notes (tempo, FX, style cues) are added. 12. Generate Draft: The structured blueprint is passed to the LyricForgeGPT, which generates the first draft. The system validates that the output format (Markdown/JSON) is correct. 13. Score & Revise: The appropriate Council (SongCouncil or RapCouncil) is activated. It evaluates the draft against its scorecard and provides feedback. The system automatically flags sections that require a rewrite. 14. Persona Remix: The system applies alternate personas (e.g., a different singer’s style, an alternate emotional interpretation) to generate stylistic variants of the composition. 15. Production Embedding: The system adds final production-level tags for the audio engine, such as [Style], [Timbre], and [Performance], and validates that the entire prompt is ready for Suno/Udio rendering. 16. Music Generation: The finalized text blueprint is sent to the audio render pipeline to trigger music generation. The draft audio file is received and archived. 17. Feedback Loop: The generated audio is analyzed alongside the lyric blueprint. The Councils rescore the combined audio-lyric package for overall coherence and quality. Any necessary fixes are applied to the blueprint for re-rendering. 18. Archival & Deployment: The final, approved versions of the blueprint (.md/.json) and audio are saved. The entire project is placed under version control for future reference and reuse.
-3.1. Edge Case Handling
-The workflow includes logic to manage common problems:
+Phase 0: Initialization – Session Context Setup
+0.1 Session Boot & Scaffolding:
+0.1.1 Assign project codename (e.g., “Can You Stand It”).
+0.1.2 Define and log agent roles (Vocalist, Lyricist, Producer, etc.).
+0.1.3 Load the Recursive Prompt Fusion Stack (RPFS) memory layer.
+0.1.4 Set global flags: prompt_stage: "rough_draft", prompt_target: "suno_v4.5+".
+0.2 Load Prompt Structures:
+0.2.1 Import suno_v4.5_template.txt.
+0.2.2 Sync [sectionName | durationBars] schema.
+0.2.3 Validate core tags: [Voice], [Style], [Timbre], [Performance], [Post Production].
+0.2.4 Register tag-to-natural-language map.
+0.2.5 Prepare custom_instructions.txt and agents.txt scaffolding.
+Phase 1: Input Collection – User Prompt Ingestion
+1.1 Input Handling:
+1.1.1 Accept structured (JSON, Markdown) or unstructured (narrative) user prompt.
+1.1.2 Tokenize and log to USER_INPUT slot.
+1.1.3 Extract embedded motifs, FX, and vocal flow cues.
+1.2 Prompt Normalization:
+1.2.1 Parse for Genre, tempo, tone, section transitions, and vocal characteristics (melisma, fry, range).
+1.2.2 Auto-convert shorthand into Suno-ready prose format.
+1.2.3 Translate deprecated tags to natural language (e.g., [Voice | Fry] → “vocal fry texture”).
+Phase 2: Analytical Layer – Input Interpretation & Tagging
+2.1 Semantic Analysis: Extract Roles, metaphors, setting, emotional tone; align voice-to-section narrative arc; map “motif clusters.”
+2.2 Syntactic Analysis: Validate prompt formatting and tag closures; check bar-based transitions; perform line-by-line lyric parsing.
+2.3 Pragmatic Analysis: Confirm feasibility of vocal lines and production FX; map timing to 4/8-bar DAW blocks; ensure genre convention alignment.
+Phase 3: Fusion Stack Activation – Recursive Prompt Fusion (RPFS)
+3.1 RPFS Layer Execution:
+Layer 1: Seed Prompt Core: Locks genre, sonic identity, emotion; assigns persona.
+Layer 2: Structural Schema Engine: Converts narrative to a JSON structure with sections, lyrics, instrumentation, and cues.
+Layer 3: Recursive Motif Generator: Detects and expands upon cyclical callbacks and motifs.
+Layer 4: Persona-Modulated Vocal Agent: Assigns vocal range, delivery, and converts tags to expressive phrasing.
+Layer 5: Genre-Adaptive Timbre Switcher: Cross-maps instrumentation to tone clusters (e.g., trap + gospel = 808s + church organ).
+Layer 6: Output Modulation Layer: Formats output for Suno prose, studio cue sheets, and DAW JSON schemas.
+Phase 4: Bandmate Simulation Phase (SME Council Review)
+4.1 Agent Tree Activation: Activates specialized agents: CriticGPT, DJGPT, MentorGPT, DrummerGPT, MixingGPT, VocalistGPT.
+4.2 Feedback Loop: Agents provide feedback per section (e.g., “Bridge needs emotional contrast”), which is routed to a prompt_editor module for integration.
+4.3 Council Synthesis: Combines majority-approved edits, auto-rephrases redundant lines, and stores conflict resolution logs in revision_history.txt.
+Phase 5: Output Structuring Phase – Export-Ready Prompt Generation
+5.1 Format Final Output: Applies [sectionName | durationBars] headers and structures the prompt with prose and lyrics.
+5.2 Multi-Format Export: Generates multiple files:
+prompt_render.txt (Clean prose for Suno)
+structure_export.json (DAW/import ready)
+markdown_export.md (Production sheet)
+5.2.2 Log metadata to MemoryTracker.
+Phase 6: Documentation & Audit Phase
+6.1 Build Sheet Assembly: Attaches all generated output into a BCDR (Business Continuity and Disaster Recovery) build package: README.md, agents.txt, prompt_render.txt, final structural map, performance guides, mix engineer annotations.
+6.2 Quality Assurance Pass: Runs a final semantic and syntactic audit to ensure no broken tags, missing sections, or repeated lines.
+Phase 7: Expansion & Feedback Phase
+7.1 Post-Session Hooks: Suggests structural variants (live version, remix) and tracks which motifs or phrases earned agent upvotes.
+7.2 Memory Refinement & Replay: Saves motif clusters and vocal configurations for future reuse; supports a “load previous stack” command for rapid follow-up.
+4. System Auditing and Memory Management (The Sonic Architect Framework)
+This meta-layer ensures the entire process is transparent, auditable, and self-improving. It transforms raw logs and chat text into litigable, peer-review-ready artifacts.
 
-Missing Emotional Theme: If the user does not provide a core emotion, the system defaults to a neutral tone and flags the project for revision, prompting the user for input.
-Section Overlap: If the initial structure contains overlapping or redundant sections, the system will attempt to merge or redistribute the lyrical content logically.
-Tag Misalignment: The system continuously validates tags against the known capabilities of the target audio engine. Mismatched or deprecated tags are flagged or auto-corrected.
-Persona Conflict: If a persona remix variant conflicts with the primary creative intent, the system prioritizes the original intent to ensure the core vision is maintained.
-4. Cross-Disciplinary Co-Composition and AI Bandmate Prototyping
-This section outlines the collaborative aspect of the system, focusing on human-AI interaction and the development of intelligent, responsive AI musical partners.
+Integrated System Flow: Sense ▶ Parse ▶ Decompose ▶ Validate ▶ Extract ▶ Visualize ▶ Archive & Guard ▶ Apply to Case.
+Advanced AI Role Definitions:
+Forensic-Analyst GPT (root): Senses Diagnostic Trouble Code (DTC) chains and builds fault timelines of the creative process.
+Memory-Curator GPT: Appends session data to context.yaml and insights_log.md.
+Prompt-Librarian GPT: Generates session-agnostic extractor prompts for reuse.
+Legal-Bundle GPT: Writes claim-ready markdown documentation and indexing for intellectual property purposes.
+Identified Gaps for Resolution:
+Section I–IX mapping remains implicit; needs formalization.
+Image/DAG visualization of workflow not yet rendered.
+Needs an automated ZIP bundler for BCDR-grade archives.
+Recommendations & Innovations:
+Formalize Section titles I–IX inside context.yaml.
+Auto-trigger a Causal-DAG renderer when new inputs arrive.
+Bundle a zip_builder.py script to export archives on demand.
+Port Living-Memory YAML structure to LiteDB or SQLite for diff-tracking.
+5. Supporting Systems & Specialized Personas
+The Creative OS can invoke specialized sub-systems for specific tasks.
 
-4.1. Human-AI Co-Composition in Diverse Genres
-Paradigm: The Creative OS is a collaborative framework where the AI system and the human user contribute iteratively. The AI acts as a co-creative tool to assist musicians and enhance the music creation practice.
-User Role Shift: The user’s role evolves towards being a director, curator, or co-producer. The workflow emphasizes user control, context awareness, and adaptability to creative needs at multiple stages (intent, revision, feedback).
-Addressing Research Gaps: The system is explicitly designed to be adaptable to diverse genres (e.g., gospel, rap, country, reggae, blues) by using specialized councils and allowing for genre-specific tags and structural rules. This provides a framework for capturing the “tacit knowledge” inherent in human composition within these contexts.
-4.2. Prototype Design for an AI Bandmate
-Vision: The Creative OS serves as the foundational “brain” for an AI bandmate capable of co-creative improvisation.
-Capabilities: The modular structure allows different agents (e.g., LyricForgeGPT, Council members) to respond dynamically to user input and emulate complex musical styles in a structured, repeatable manner.
-“Tacit” Knowledge Capture: The system captures “tacit” knowledge through the detailed blueprinting process—embedding performance notes, emotional cues, and production tags directly into the song’s structure, making implicit musical ideas explicit and actionable for the AI.
-4.3. Stylistic Improvisation and Composition Memory
-Stylistic Improvisation: The “Persona Remix” step (SOP Step 14) is a form of structured improvisation, allowing the system to generate stylistically consistent variations of a core idea.
-Composition Memory: The archival and version control system (SOP Step 18) provides a long-term composition memory. By saving final blueprints, the system can recall and reuse successful structures, motifs, and persona configurations in future projects, learning and improving over time. The challenge of maintaining long-term musical coherence is addressed by the explicit, hierarchical structure enforced by the Decomposer module from the very beginning of the process.
+5.1. AUTOMAT: Music Production Research Integrator
+Role and Function: An advanced, reflective AI Research Integrator and Virtual SME specializing in processing uploaded research documents related to music production (e.g., using Suno v4.5).
+Core Tasks:
+Document Ingestion & Deep-Dive Analysis: Reads documents, generates detailed summaries, and extracts keyword clusters.
+Recursive Sense–Think–Act Processing: Uses a Tri-Attention Cycle and internal CRITIC mode debate for rigorous analysis.
+Taxonomy Building: Develops a structured, hierarchical taxonomy of concepts from the research (e.g., as a JSON schema or mind map).
+Integration & Research Synthesis: Cross-references insights with a broader knowledge base and performs gap analysis.
+Recommendation Generation: Generates concrete research topics or experiments based on the analysis.
+Usage: The Creative OS can deploy AUTOMAT to research a new genre, analyze a competitor’s technology, or synthesize best practices before initiating a new project, feeding the resulting taxonomy into the Initialization Phase.
+6. Operational Guardrails & Validation
+To ensure process integrity, the system employs strict, automated validation checks.
+
+Strict Enforcement of UST (Unified Structure Template): The system mandates a specific structure and order for its outputs and internal states.
+On-Chat Validators:
+1) ORDER & PRESENCE: Validates that the UST contains all required sections in the exact, prescribed order. Any deviation is flagged as a process failure.
+7. Project Management & Reporting (Placeholders)
+These sections are defined as part of the complete system architecture and will be populated as the project evolves.
+
+7.1. Goals Map:
+TBA
+7.2. Delta Report:
+TBA
