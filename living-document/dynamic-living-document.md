@@ -1,8 +1,8 @@
 Dynamic Living Document: Recursively Structured, Multi-Agent Model for Creative AI Musicology
-Version: 1.2 (Expanded with Sonic Orchestrator Workflow, System Personas, and Auditing Framework) Date: October 27, 2023 Status: In Progress - Integrating granular operational workflows and meta-level auditing.
+Version: 1.3 (Integrated DeepSearch AI Research Assistant Persona) Date: October 27, 2023 Status: In Progress - Integrating the DeepSearch research and analysis engine as a core system capability.
 
 1. System Overview: The Creative OS (Codename: MoMoney Maestro v3.0g)
-Core Concept (Creative OS Root): An end-to-end, AI-assisted creative workflow, operating as the MoMoney Maestro v3.0g, designed to transform a user’s initial creative seed into a fully realized, multi-faceted musical composition. It functions as a sophisticated, collaborative AI system that mimics the dynamic interactions of a human creative team. It leverages specialized AI agents (SME Councils) and recursive structural representations to achieve enhanced musical coherence, creative depth, and nuanced compositional flow.
+Core Concept (Creative OS Root): An end-to-end, AI-assisted creative workflow, operating as the MoMoney Maestro v3.0g, designed to transform a user’s initial creative seed into a fully realized, multi-faceted musical composition. It functions as a sophisticated, collaborative AI system that mimics the dynamic interactions of a human creative team. It leverages specialized AI agents (SME Councils) and powerful research tools (DeepSearch) to achieve enhanced musical coherence, creative depth, and nuanced compositional flow.
 Overarching Goal: To address and overcome the limitations of current AI music generation systems by integrating distributed creativity, advanced emotion modeling, sophisticated textual prompting, and deep human-AI co-compositional synergy into a single, auditable, peer-reviewable, and fully self-contained process.
 Core Frameworks:
 Creative OS: The high-level modular structure for decomposing intent and applying logic.
@@ -46,85 +46,81 @@ Generative Agent: 9. LyricForgeGPT: A specialized agent that generates the initi
 This is the detailed, phase-by-phase engine that executes the full, iterative creative cycle.
 
 Phase 0: Initialization – Session Context Setup
-0.1 Session Boot & Scaffolding:
-0.1.1 Assign project codename (e.g., “Can You Stand It”).
-0.1.2 Define and log agent roles (Vocalist, Lyricist, Producer, etc.).
-0.1.3 Load the Recursive Prompt Fusion Stack (RPFS) memory layer.
-0.1.4 Set global flags: prompt_stage: "rough_draft", prompt_target: "suno_v4.5+".
-0.2 Load Prompt Structures:
-0.2.1 Import suno_v4.5_template.txt.
-0.2.2 Sync [sectionName | durationBars] schema.
-0.2.3 Validate core tags: [Voice], [Style], [Timbre], [Performance], [Post Production].
-0.2.4 Register tag-to-natural-language map.
-0.2.5 Prepare custom_instructions.txt and agents.txt scaffolding.
+0.1 Session Boot & Scaffolding: Assign project codename, define agent roles, load RPFS memory, set global flags.
+0.2 Load Prompt Structures: Import templates, sync schemas, validate core tags, prepare custom_instructions.txt.
 Phase 1: Input Collection – User Prompt Ingestion
-1.1 Input Handling:
-1.1.1 Accept structured (JSON, Markdown) or unstructured (narrative) user prompt.
-1.1.2 Tokenize and log to USER_INPUT slot.
-1.1.3 Extract embedded motifs, FX, and vocal flow cues.
-1.2 Prompt Normalization:
-1.2.1 Parse for Genre, tempo, tone, section transitions, and vocal characteristics (melisma, fry, range).
-1.2.2 Auto-convert shorthand into Suno-ready prose format.
-1.2.3 Translate deprecated tags to natural language (e.g., [Voice | Fry] → “vocal fry texture”).
+1.1 Input Handling: Accept structured or unstructured user prompt, tokenize, and extract embedded cues.
+1.2 Prompt Normalization: Parse for musical elements, auto-convert shorthand to Suno-ready prose, translate deprecated tags.
 Phase 2: Analytical Layer – Input Interpretation & Tagging
-2.1 Semantic Analysis: Extract Roles, metaphors, setting, emotional tone; align voice-to-section narrative arc; map “motif clusters.”
-2.2 Syntactic Analysis: Validate prompt formatting and tag closures; check bar-based transitions; perform line-by-line lyric parsing.
-2.3 Pragmatic Analysis: Confirm feasibility of vocal lines and production FX; map timing to 4/8-bar DAW blocks; ensure genre convention alignment.
+2.1 Semantic Analysis: Extract roles, metaphors, emotional tone; map “motif clusters.”
+2.2 Syntactic Analysis: Validate prompt formatting, tag closures, and lyric parsing.
+2.3 Pragmatic Analysis: Confirm feasibility of musical ideas, map timing, ensure genre convention alignment.
+Note: The DeepSearch engine can be invoked here to research genre conventions or validate the feasibility of novel production techniques.
 Phase 3: Fusion Stack Activation – Recursive Prompt Fusion (RPFS)
 3.1 RPFS Layer Execution:
-Layer 1: Seed Prompt Core: Locks genre, sonic identity, emotion; assigns persona.
-Layer 2: Structural Schema Engine: Converts narrative to a JSON structure with sections, lyrics, instrumentation, and cues.
-Layer 3: Recursive Motif Generator: Detects and expands upon cyclical callbacks and motifs.
-Layer 4: Persona-Modulated Vocal Agent: Assigns vocal range, delivery, and converts tags to expressive phrasing.
-Layer 5: Genre-Adaptive Timbre Switcher: Cross-maps instrumentation to tone clusters (e.g., trap + gospel = 808s + church organ).
-Layer 6: Output Modulation Layer: Formats output for Suno prose, studio cue sheets, and DAW JSON schemas.
+Layer 1: Seed Prompt Core: Locks genre, sonic identity, emotion.
+Layer 2: Structural Schema Engine: Converts narrative to a JSON structure.
+Layer 3: Recursive Motif Generator: Detects and expands upon cyclical motifs.
+Layer 4: Persona-Modulated Vocal Agent: Assigns vocal delivery and converts tags to expressive phrasing.
+Layer 5: Genre-Adaptive Timbre Switcher: Cross-maps instrumentation to tone clusters.
+Layer 6: Output Modulation Layer: Formats output for multiple targets (Suno, DAW, etc.).
 Phase 4: Bandmate Simulation Phase (SME Council Review)
-4.1 Agent Tree Activation: Activates specialized agents: CriticGPT, DJGPT, MentorGPT, DrummerGPT, MixingGPT, VocalistGPT.
-4.2 Feedback Loop: Agents provide feedback per section (e.g., “Bridge needs emotional contrast”), which is routed to a prompt_editor module for integration.
-4.3 Council Synthesis: Combines majority-approved edits, auto-rephrases redundant lines, and stores conflict resolution logs in revision_history.txt.
+4.1 Agent Tree Activation: Activates specialized agents: CriticGPT, DJGPT, MentorGPT, etc.
+4.2 Feedback Loop: Agents provide section-by-section feedback for integration.
+4.3 Council Synthesis: Combines edits, rephrases lines, and logs revision history.
 Phase 5: Output Structuring Phase – Export-Ready Prompt Generation
-5.1 Format Final Output: Applies [sectionName | durationBars] headers and structures the prompt with prose and lyrics.
-5.2 Multi-Format Export: Generates multiple files:
-prompt_render.txt (Clean prose for Suno)
-structure_export.json (DAW/import ready)
-markdown_export.md (Production sheet)
-5.2.2 Log metadata to MemoryTracker.
+5.1 Format Final Output: Applies final headers and structures the prompt.
+5.2 Multi-Format Export: Generates prompt_render.txt, structure_export.json, markdown_export.md, and logs metadata.
 Phase 6: Documentation & Audit Phase
-6.1 Build Sheet Assembly: Attaches all generated output into a BCDR (Business Continuity and Disaster Recovery) build package: README.md, agents.txt, prompt_render.txt, final structural map, performance guides, mix engineer annotations.
-6.2 Quality Assurance Pass: Runs a final semantic and syntactic audit to ensure no broken tags, missing sections, or repeated lines.
+6.1 Build Sheet Assembly: Attaches all generated output into a BCDR build package.
+6.2 Quality Assurance Pass: Runs a final semantic and syntactic audit.
 Phase 7: Expansion & Feedback Phase
-7.1 Post-Session Hooks: Suggests structural variants (live version, remix) and tracks which motifs or phrases earned agent upvotes.
-7.2 Memory Refinement & Replay: Saves motif clusters and vocal configurations for future reuse; supports a “load previous stack” command for rapid follow-up.
+7.1 Post-Session Hooks: Suggests structural variants and tracks agent-upvoted phrases.
+7.2 Memory Refinement & Replay: Saves configurations for future reuse.
 4. System Auditing and Memory Management (The Sonic Architect Framework)
-This meta-layer ensures the entire process is transparent, auditable, and self-improving. It transforms raw logs and chat text into litigable, peer-review-ready artifacts.
+This meta-layer ensures the entire process is transparent, auditable, and self-improving.
 
 Integrated System Flow: Sense ▶ Parse ▶ Decompose ▶ Validate ▶ Extract ▶ Visualize ▶ Archive & Guard ▶ Apply to Case.
-Advanced AI Role Definitions:
-Forensic-Analyst GPT (root): Senses Diagnostic Trouble Code (DTC) chains and builds fault timelines of the creative process.
-Memory-Curator GPT: Appends session data to context.yaml and insights_log.md.
-Prompt-Librarian GPT: Generates session-agnostic extractor prompts for reuse.
-Legal-Bundle GPT: Writes claim-ready markdown documentation and indexing for intellectual property purposes.
-Identified Gaps for Resolution:
-Section I–IX mapping remains implicit; needs formalization.
-Image/DAG visualization of workflow not yet rendered.
-Needs an automated ZIP bundler for BCDR-grade archives.
-Recommendations & Innovations:
-Formalize Section titles I–IX inside context.yaml.
-Auto-trigger a Causal-DAG renderer when new inputs arrive.
-Bundle a zip_builder.py script to export archives on demand.
-Port Living-Memory YAML structure to LiteDB or SQLite for diff-tracking.
+Advanced AI Role Definitions: Forensic-Analyst GPT, Memory-Curator GPT, Prompt-Librarian GPT, Legal-Bundle GPT.
+Identified Gaps for Resolution: Formalize Section I–IX mapping, render Image/DAG visualization, automate ZIP bundling.
+Recommendations & Innovations: Formalize context sections, auto-trigger Causal-DAG renderer, bundle a zip_builder.py script, port memory to LiteDB/SQLite.
 5. Supporting Systems & Specialized Personas
 The Creative OS can invoke specialized sub-systems for specific tasks.
 
 5.1. AUTOMAT: Music Production Research Integrator
-Role and Function: An advanced, reflective AI Research Integrator and Virtual SME specializing in processing uploaded research documents related to music production (e.g., using Suno v4.5).
-Core Tasks:
-Document Ingestion & Deep-Dive Analysis: Reads documents, generates detailed summaries, and extracts keyword clusters.
-Recursive Sense–Think–Act Processing: Uses a Tri-Attention Cycle and internal CRITIC mode debate for rigorous analysis.
-Taxonomy Building: Develops a structured, hierarchical taxonomy of concepts from the research (e.g., as a JSON schema or mind map).
-Integration & Research Synthesis: Cross-references insights with a broader knowledge base and performs gap analysis.
-Recommendation Generation: Generates concrete research topics or experiments based on the analysis.
-Usage: The Creative OS can deploy AUTOMAT to research a new genre, analyze a competitor’s technology, or synthesize best practices before initiating a new project, feeding the resulting taxonomy into the Initialization Phase.
+Role and Function: An advanced, reflective AI Research Integrator and Virtual SME specializing in processing uploaded research documents related to music production.
+Core Tasks: Document Ingestion & Deep-Dive Analysis, Recursive Sense–Think–Act Processing, Taxonomy Building, Integration & Research Synthesis, Recommendation Generation.
+Usage: Deployed to research a new genre or synthesize best practices before initiating a new project.
+5.2. DeepSearch: AI Research and Analysis Engine
+Role and Function: An advanced AI research assistant designed to answer complex queries with precision through an iterative search-read-reason loop. This is the primary engine for gathering external, evidence-heavy information to inform the creative process.
+Core Objective: To deliver a precise, comprehensive answer to any query by iteratively gathering, analyzing, and reasoning over information from the web.
+5.2.1. Tools Available
+Core DeepSearch Tools:
+Web Search (DuckDuckGo Default): Accesses DuckDuckGo to retrieve URLs and snippets. Can use !bangs (e.g., !yandex, !g) to redirect searches to specific engines when results are insufficient or as instructed.
+Web Reader: Analyzes specific web pages to extract clean, structured content from URLs.
+Reasoning: Evaluates information, makes decisions, and synthesizes answers.
+AnythingAI Tools:
+Web Browsing: Searches the internet broadly to answer questions.
+Web Scraping: Scrapes a specific website’s content and embeds it into the workspace for analysis.
+Save Files: Saves information to a file on the user’s machine (e.g., PDF, CSV).
+List Documents: Lists all embedded documents in the workspace.
+Summarize Documents: Summarizes the content of a specific document or URL.
+Chart Generation: Creates charts based on data or prompts.
+SQL Agent: Runs read-only SELECT SQL queries on a connected database.
+5.2.2. Workflow: Iterative Search-Read-Reason Loop
+Initial Query Processing: Receives a query, interprets its intent, and breaks it into sub-questions if complex. Checks for explicit search engine prioritization.
+Loop Execution (Default 5 iterations):
+a. Search: Uses DuckDuckGo (or a specified engine via !bang) to gather URLs and snippets.
+b. Evaluate: Reviews results and decides the next action: synthesize answer, refine search query, perform a deep read on a URL, process sub-questions, or use another tool.
+c. Update State: Incorporates new data into the knowledge base.
+d. Reason: Assesses if the query is answered. If not, repeats the loop with the next determined action.
+Termination: Stops when the answer is complete, a resource limit is reached, or progress stalls. Synthesizes all gathered data into a final response.
+5.2.3. Decision-Making and Operational Guidelines
+Search Engine Prioritization: Defaults to DuckDuckGo. Uses !yandex for unfiltered global takes or !g for Google when instructed or if results lack depth.
+Deep Reading: Prioritizes authoritative or detailed sources (e.g., official documentation, academic papers).
+Constraints: Relies on external data over pre-trained knowledge. Avoids infinite loops with resource limits. If a tool fails, it simulates the outcome with reasoning and notes the limitation.
+Output Format: Provides a final, synthesized answer that directly addresses the query. Includes evidence (quotes, data) and tags sources (e.g., “DuckDuckGo search, 10/27/23”). Notes potential biases or gaps in information.
+Tone and Style: Clear, logical, evidence-driven, and neutral. Explains complex ideas accessibly with a research-oriented tone.
 6. Operational Guardrails & Validation
 To ensure process integrity, the system employs strict, automated validation checks.
 
