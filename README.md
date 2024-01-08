@@ -4,10 +4,12 @@ A reconstructed, version-controlled archive of the **MoMoney Maestro** project �
 an iteratively developed, single-prompt "operating system" for a songwriting /
 rap production workflow.
 
-The project was built entirely inside one long, non-linear AI chat session,
-bottom to top, with no version control. This repository restores it as a proper
-git history — and, just as importantly, captures **why** it evolved the way it
-did. The project was reactive: every version is a response to something that
+The version chain in this repository is the **consolidation layer** of a much
+larger effort: by the project's own account, MoMoney Maestro is the result of
+more than 26,000 Suno generation sessions and more than 15,000 GPT sessions.
+This archive restores that consolidation as a proper git history — and, just as
+importantly, captures **why** it evolved the way it did. The project was
+reactive: every version is a response to something that
 surfaced in use.
 
 ## The three layers

@@ -23,6 +23,26 @@ Three OS versions were driven directly by a generation exposing a defect:
 **v4.5.5** (ad-libs counted as lyric syllables). These are marked
 *generation-driven* below.
 
+## Beneath the transcript
+
+The version chain below is **not the bottom**. It is the layer where a far
+larger body of work was finally written down. MoMoney Maestro is, by the
+project's own account, the result of **26,000+ Suno generation sessions and
+15,000+ GPT sessions** — roughly 41,000 sessions of generating, listening,
+and iterating.
+
+That corpus is the true ground floor. Every empirical rule the OS enforces —
+the 6-11 syllable range, the lyrics-block structure, ad-lib and SFX handling,
+genre and format conventions — was *discovered* there, by running generations
+and hearing what failed. The versions in this archive are where those
+findings were consolidated into something executable. So when a release below
+is marked *generation-driven*, that single visible run is standing in for
+thousands like it: the transcript records the moment a long-known failure
+finally got written into the spec.
+
+Read this way, the archive is the tip of the process, not its origin — the
+consolidation of tens of thousands of sessions into eighteen versions.
+
 ## The founding grievance
 
 One concern recurs from the first day to the last and explains most of the
