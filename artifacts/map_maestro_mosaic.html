@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Conceptual Map — Maestro on Mosaic</title>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<link href="https://unpkg.com/vis-network/styles/vis-network.min.css" rel="stylesheet" />
+<style>
+  html, body { margin: 0; height: 100%; font-family: Arial, Helvetica, sans-serif; }
+  #header {
+    height: 56px; box-sizing: border-box; display: flex; align-items: center;
+    padding: 0 20px; background: #ffffff; border-bottom: 2px solid #4285F4;
+  }
+  #header h1 { font-size: 16px; margin: 0; color: #202124; font-weight: 700; }
+  #header span { font-size: 12px; color: #5f6368; margin-left: 16px; }
+  #map { width: 100%; height: calc(100vh - 56px); background: #f8f9fa; }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>Maestro on Mosaic &mdash; Architecture Concept Map</h1>
+  <span>Drag a node to fix it &middot; double-click to release &middot; hover for detail</span>
+</div>
+<div id="map"></div>
+
+<script type="text/javascript">
+  // ---- tooltip helpers (HTML tooltips need DOM elements in vis-network) ----
+  function htmlTitle(html) {
+    const c = document.createElement("div");
+    c.style.maxWidth = "270px";
+    c.style.whiteSpace = "normal";
+    c.style.lineHeight = "1.4";
+    c.innerHTML = html;
+    return c;
+  }
+  function nodeTitle(label, desc) {
+    return htmlTitle("<b>Concept:</b> " + label + "<br>" + desc +
+      "<br><i style='color:#5f6368'>Drag to position, double-click to release.</i>");
+  }
+  function edgeTitle(verb) {
+    return htmlTitle("<b>Relationship:</b> " + verb);
+  }
+
+  // ---- concepts: [id, label, description, size] ----------------------------
+  const nodeData = [
+    ["creative_intent", "Creative Intent", "Loose, under-specified human input \u2014 the compiler's source.", 24],
+    ["maestro", "Maestro (Compiler)", "The music application \u2014 a compiler turning creative intent into model-executable artifacts.", 34],
+    ["mosaic", "Mosaic (Substrate)", "Domain-neutral cognitive substrate: the empirical model of how the target platforms behave.", 34],
+    ["sessions", "~41k Suno + GPT Sessions", "About 26k Suno and 15k GPT sessions \u2014 the corpus the substrate was derived from.", 18],
+    ["ust", "Technical UST", "The intermediate representation \u2014 a structured, addressable meso-container.", 34],
+    ["axes", "Eight Axes (Grammar)", "Eight constrained dimensions: theory, voice, style, timbre, performance, post, roadmap, lyrics.", 24],
+    ["note_fields", "Note Fields (value + condition)", "Addressable cells, each holding a value together with a condition \u2014 a rule, not a datum.", 18],
+    ["nulls", "Nulls", "Empty fields \u2014 each must be lawfully filled or explicitly defended.", 18],
+    ["frontend", "Front End: Parse", "Decomposes the creative seed into granular note fields across the axes.", 24],
+    ["optimizer", "Optimizer: Pressure", "Structured, adversarial evaluative pressure applied to the representation.", 24],
+    ["personas", "Personas / Councils", "Simulated specialist workers with bounded jurisdiction; they think out loud.", 24],
+    ["fallible", "Fallible by Design", "Workers are assumed fallible \u2014 the pressure apparatus exists because of it.", 18],
+    ["sem", "SEM (Admissibility)", "Song Excellence \u2014 concurrent quality scoring and gates, applied during creation.", 24],
+    ["orchestrator", "Orchestrator", "Bounded controller: checks each field against SEM and routes work; never authors content.", 18],
+    ["congruency", "Congruency Meetings", "Deliberation terminates on convergence, not on a fixed number of turns.", 18],
+    ["bullshit", "Calling Bullshit", "An explicit halt on circular argument \u2014 keeps congruency meetings from looping.", 18],
+    ["lock", "Locked UST", "The representation that survives the pressure becomes immutable and canonical.", 18],
+    ["foil", "FOIL: Factoring", "Back end: recurring terms hoisted to their smallest enclosing scope.", 24],
+    ["three_outputs", "Three Outputs", "Three reversible artifacts factored from the locked UST.", 24],
+    ["suno_inputs", "Suno's Three Inputs", "Style summary, persona, and lyrics prompt.", 18],
+    ["meso", "Meso-Container in Lyrics Prompt", "A structured container that executes inside Suno's lyrics-prompt field.", 18],
+    ["suno", "Suno (Target Machine)", "The generation model that executes the compiled output.", 34],
+    ["daw", "Suno as a DAW", "Atomic, addressable control over Suno, the way a DAW controls audio.", 18],
+    ["soft_hard", "Hard Controls > Soft Controls", "Reliability comes from enforced hard controls \u2014 schemas, validators \u2014 not from prompts.", 18],
+    ["empirical", "Empirical, Bottom-Up Discovery", "The schema was discovered from observed platform behavior, not designed top-down.", 18],
+    ["ownership", "Artist Ownership", "The artist owns the vision \u2014 the motto: 'your vision, our mission'.", 18],
+    ["lyric_locks", "Lyric Locks", "Locked lyrics the model is structurally forbidden to rewrite.", 18],
+    ["v45", "v4.5 Lineage (Proven)", "The proven Maestro lineage \u2014 it produced real, released songs.", 24],
+    ["v5", "v5 (Flawed Branch)", "A known-flawed branch, kept as diagnostic rather than canonical.", 18],
+    ["v0", "v0 on Mosaic (Rebirth)", "The rebirth \u2014 the proven system re-founded on Mosaic; specified, not yet built.", 24],
+    ["poc", "Proof of Concept", "A minimal slice that retires the riskiest claim against a falsifiable test.", 18]
+  ];
+
+  // ---- relationships: [from, to, verb] -------------------------------------
+  const edgeData = [
+    ["creative_intent", "frontend", "enters"],
+    ["frontend", "axes", "decomposes into"],
+    ["axes", "note_fields", "structured as"],
+    ["note_fields", "ust", "compose"],
+    ["ust", "nulls", "contains"],
+    ["ust", "optimizer", "enters"],
+    ["optimizer", "personas", "runs"],
+    ["personas", "sem", "feed"],
+    ["sem", "ust", "modulates"],
+    ["orchestrator", "sem", "checks against"],
+    ["orchestrator", "personas", "routes to"],
+    ["orchestrator", "optimizer", "advances"],
+    ["personas", "nulls", "resolve or defend"],
+    ["fallible", "optimizer", "necessitates"],
+    ["fallible", "personas", "characterizes"],
+    ["bullshit", "congruency", "bounds"],
+    ["congruency", "lock", "leads to"],
+    ["optimizer", "lock", "culminates in"],
+    ["lock", "foil", "enables"],
+    ["foil", "three_outputs", "emits"],
+    ["three_outputs", "suno_inputs", "map to"],
+    ["three_outputs", "meso", "include"],
+    ["three_outputs", "creative_intent", "reverse-map to"],
+    ["suno_inputs", "suno", "drive"],
+    ["meso", "suno", "executes inside"],
+    ["meso", "daw", "delivers"],
+    ["ust", "daw", "enables"],
+    ["maestro", "mosaic", "runs on"],
+    ["sessions", "mosaic", "generate"],
+    ["mosaic", "suno", "models"],
+    ["mosaic", "soft_hard", "rests on"],
+    ["empirical", "axes", "discovers"],
+    ["empirical", "maestro", "shapes"],
+    ["sessions", "empirical", "embody"],
+    ["maestro", "daw", "treats Suno as"],
+    ["maestro", "ownership", "preserves"],
+    ["lyric_locks", "ownership", "enforce"],
+    ["lyric_locks", "ust", "protect content in"],
+    ["maestro", "v45", "proven through"],
+    ["v45", "v5", "evolves into"],
+    ["v45", "v0", "reborn as"],
+    ["v0", "mosaic", "mounts on"],
+    ["v0", "poc", "validated by"],
+    ["poc", "soft_hard", "must prove"],
+    ["poc", "v45", "measured against"]
+  ];
+
+  // ---- build datasets ------------------------------------------------------
+  const nodes = new vis.DataSet(nodeData.map(function (n) {
+    return { id: n[0], label: n[1], size: n[3], title: nodeTitle(n[1], n[2]) };
+  }));
+  const edges = new vis.DataSet(edgeData.map(function (e) {
+    return { from: e[0], to: e[1], label: e[2], title: edgeTitle(e[2]) };
+  }));
+
+  // ---- visual + physics configuration -------------------------------------
+  const options = {
+    nodes: {
+      shape: "dot",
+      size: 20,
+      borderWidth: 2,
+      color: {
+        border: "#4285F4",
+        background: "#ffffff",
+        highlight: { border: "#34A853", background: "#e6f4ea" }
+      },
+      font: { size: 14, color: "#3c4043" }
+    },
+    edges: {
+      color: { color: "#dee2e6", highlight: "#34A853" },
+      arrows: { to: { enabled: true, scaleFactor: 0.7 } },
+      font: { align: "middle", size: 12, color: "#5f6368" },
+      width: 2
+    },
+    physics: {
+      solver: "forceAtlas2Based",
+      forceAtlas2Based: {
+        gravitationalConstant: -50,
+        centralGravity: 0.005,
+        springLength: 100,
+        springConstant: 0.18
+      },
+      maxVelocity: 146,
+      minVelocity: 0.1,
+      stabilization: { iterations: 150 }
+    },
+    interaction: { hover: true, tooltipDelay: 120 }
+  };
+
+  // ---- initialize network --------------------------------------------------
+  const network = new vis.Network(
+    document.getElementById("map"),
+    { nodes: nodes, edges: edges },
+    options
+  );
+
+  // ---- interactivity: fix on drag end, release on double click -------------
+  network.on("dragEnd", function (params) {
+    if (params.nodes.length > 0) {
+      nodes.update({ id: params.nodes[0], fixed: true });
+    }
+  });
+  network.on("doubleClick", function (params) {
+    if (params.nodes.length > 0) {
+      nodes.update({ id: params.nodes[0], fixed: false });
+    }
+  });
+</script>
+</body>
+</html>
