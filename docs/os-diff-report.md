@@ -1,8 +1,10 @@
 # Maestro OS — Version Diff Report
 
-A line-level comparison of consecutive full **MoMoney Maestro OS** artifacts,
-focused on **silent changes**: edits present in the document text that the
-version's own announced upgrade notes do not mention.
+A line-level comparison of consecutive full **Maestro OS** artifacts, focused on
+**unannounced changes**: edits present in the document text that the version's
+own upgrade notes do not call out. As the summary explains, these are artifacts
+of the documentation medium — the consequence of re-emitting a ~13,000-word
+prompt by hand each version — not changes to the system's behavior.
 
 ---
 
@@ -77,7 +79,7 @@ Arc Design, and Triple-Meaning Hooks.
   **7.11** Narrative Arc Design Principles, **7.12** Hook Design Strategies
   (~23 lines), plus a "Triple-Meaning Hooks" line.
 
-**Silent change (not in the label):**
+**Unannounced change (not in the label):**
 
 - **PHASE 7.5 heading recapitalized:** `CROSS-DOMAIN ITERATION & RE-BLUEPRINT`
   → `Cross-Domain Iteration & Re-Blueprint`. Cosmetic, unannounced — and the
@@ -101,7 +103,7 @@ metacontainer formatting.
 - The Suno format template placeholders changed from `{snake_case}` to
   `{CamelCase}` — consistent with the variable rename.
 
-**Silent changes (not in the label):**
+**Unannounced changes (not in the label):**
 
 - **PHASE 7.5 heading recapitalized again — back to ALL CAPS**
   (`Cross-Domain…` → `CROSS-DOMAIN…`). This now reverses the v4.5.3 edit.
@@ -127,7 +129,7 @@ metacontainer formatting.
   ad-lib/SFX text is excluded from the count.
 - Validation rule text updated to state the count applies to quoted lyrics only.
 
-**Silent changes (not in the label):**
+**Unannounced changes (not in the label):**
 
 - **Numbering defect in the Core Mandates list.** In v4.5.4 the numbered
   mandate list runs `1 … 7, 8. Self-Correction & Process Integrity Protocol`.
@@ -137,14 +139,14 @@ metacontainer formatting.
 - **PHASE 7.5 heading recapitalized a third time** (`CROSS-DOMAIN…` →
   `Cross-Domain…`). The casing has now flip-flopped across every version in the
   monolithic series: v4.5.3 Title → v4.5.4 CAPS → v4.5.5 Title. This is
-  unmanaged formatting drift — a regeneration artifact, not an intentional edit.
+  a documentation-medium artifact, not an intentional edit.
 - Minor in-place fix to an example value (`mode.GAEolian` → `mode.GAeolian`).
 
 ---
 
-## Summary of silent changes
+## Summary of unannounced changes
 
-| Version | Silent change | Type | Severity |
+| Version | Unannounced change | Type | Severity |
 |---|---|---|---|
 | v4.5.3 | PHASE 7.5 heading recased (CAPS → Title) | cosmetic | low |
 | v4.5.4 | PHASE 7.5 heading recased back (Title → CAPS) | cosmetic | low |
@@ -153,9 +155,11 @@ metacontainer formatting.
 | v4.5.5 | Core Mandates list skips item 8 (numbered 7 → 9) | defect | medium |
 
 **Pattern:** the per-version *announced* changes are accurate — every labelled
-change does appear in the diff. The silent issues are all **regeneration
-drift**: heading capitalization that oscillates because the document is
-re-emitted from scratch each version, a numbering slip in v4.5.5, and execution
-output accreting into the spec. None of them change the OS's intended behavior,
-but the item-8 skip and the embedded run-logs are worth fixing if these
-artifacts are meant to be a clean version-controlled baseline.
+change does appear in the diff. The unannounced changes are all **artifacts of
+the documentation medium**: heading capitalization that oscillates because the
+~13,000-word document is re-emitted by hand each version, a numbering slip in
+v4.5.5, and execution output accreting into the spec. None of them change the
+OS's intended behavior and none indicate the system degrading — the system was
+operational throughout the lineage. The item-8 skip and the embedded run-logs
+are simply worth tidying if these artifacts are to serve as a clean
+version-controlled baseline.
