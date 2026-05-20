@@ -5,7 +5,7 @@ Three deterministic checks, all derived from canonical sources:
 1. Length bounds — character counts vs profile budgets.
 2. Section order — Creative UST section sequence vs Suno Output Law
    (maestro_v0.md §5.1).
-3. Comma policy — INV-04 (no commas outside the LYRICS BLOCK).
+3. Comma policy — Maestro.INV-04 (no commas outside the LYRICS BLOCK).
 
 Each check is pure (no I/O), takes the relevant Triad field plus profile data,
 and returns a ChechResult. The validator aggregates results into a
@@ -221,7 +221,7 @@ def _check_section_order(creative_ust: str) -> CheckResult:
 
 
 def _check_comma_policy(creative_ust: str) -> CheckResult:
-    """INV-04: no commas outside the LYRICS BLOCK.
+    """Maestro.INV-04: no commas outside the LYRICS BLOCK.
 
     Strategy:
       1. Locate the LYRICS BLOCK section boundaries (start at its header,

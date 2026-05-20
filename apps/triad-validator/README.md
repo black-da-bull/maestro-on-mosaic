@@ -14,7 +14,7 @@ Three checks, all deterministic, all derived from canonical sources:
 
 1. **Length bounds** — character counts per surface against profile-defined budgets.
 2. **Section order** — Creative UST section sequence against the Suno Output Law.
-3. **Comma policy** — INV-04 (no commas outside the lyrics block).
+3. **Comma policy** — `Maestro.INV-04` (no commas outside the lyrics block).
 
 Profiles supported in v0.1:
 - `v4_2_3` (legacy: summary ≤ 1000, macro ≤ 4800)
@@ -28,8 +28,8 @@ Profiles are data; not code. New profiles get added by extending `profiles.py` w
 Excluded for v0.1, scoped for later slices:
 - Micro checks (grammar, prosody, clarity, dedupe)
 - Tactical checks (phone_scene, exit_stanza, mix_notes, mono_sub_kick, hook_plate_reverb)
-- Syllable integrity (INV-05: 6–11 syllables per lyric line)
-- Lyrics-lock compliance (INV-07/08)
+- Syllable integrity (`Maestro.INV-05`: 6–11 syllables per lyric line)
+- Lyrics-lock compliance (`Maestro.INV-07` / `Maestro.INV-08`)
 - G-Card scoring (excellence, not feasibility)
 - SEM linting (in-creation pressure, not post-emit gate)
 
@@ -72,8 +72,8 @@ completion_status:
   missing_nodes:
     - tactical checks (phone_scene, exit_stanza, mix_notes, mono_sub_kick, hook_plate_reverb)
     - Evidence Contract validator (one-sentence-per-subkey + binding + downstream prediction + challenge cycle)
-    - syllable integrity (INV-05)
-    - lyrics-lock compliance (INV-07/INV-08)
+    - syllable integrity (`Maestro.INV-05`)
+    - lyrics-lock compliance (`Maestro.INV-07` / `Maestro.INV-08`)
     - micro checks (grammar, prosody, clarity, dedupe)
     - G-Card scoring (excellence, not feasibility)
     - SE20 cultural-lineage checks

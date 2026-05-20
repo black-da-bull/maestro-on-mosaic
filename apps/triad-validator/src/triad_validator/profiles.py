@@ -6,7 +6,7 @@ here — never touching the check logic.
 
 Sources:
 - v4_2_3: master.json (summary_chars_limit=1000, macro_chars_limit=4800)
-- v4_5_2: maestro.md INV-14 (Show Summary ≤ 1000, Macro Lyric Prompt ≤ 4990)
+- v4_5_2: maestro.md Maestro.INV-14 (Show Summary ≤ 1000, Macro Lyric Prompt ≤ 4990)
 - v0_spec: maestro_v0.md §1 mount manifest budget_constraints
 """
 
