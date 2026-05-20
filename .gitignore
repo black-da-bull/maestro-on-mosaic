@@ -3,3 +3,17 @@
 *.tmp
 .claude/tangents/
 .claude/tangent/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
