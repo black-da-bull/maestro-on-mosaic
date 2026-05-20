@@ -1,3 +1,5 @@
 *.bundle
 *.tar.gz
 *.tmp
+.claude/tangents/
+.claude/tangent/
