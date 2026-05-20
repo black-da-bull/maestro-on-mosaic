@@ -28,7 +28,7 @@ categories, not generic repo categories.
 ```
 rebirth/
 ├── apps/                 # productization slices (deployable)
-│   └── triad-validator/  # first slice — INV-04 + length + structure checks
+│   └── triad-validator/  # first slice — Maestro.INV-04 + length + structure checks
 ├── packages/             # (future) shared libraries
 ├── docs/
 │   ├── adr/              # Architecture Decision Records (this file lives here)

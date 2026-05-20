@@ -1,9 +1,12 @@
-# INV-11 — Bounded Autonomy Within Demonstrated Domain Competence
+# Mosaic.INV-11 — Bounded Autonomy Within Demonstrated Domain Competence
 
 **Status:** DRAFT — candidate addition to Mosaic Engine kernel invariants (v0.2)
 **Origin:** Onboarding tangent, 2026-05-18 — fresh AI operator reached canonical
 context-management without rounds of corrective Q-A-F in main-thread work
-**Pairs with:** INV-07 (Authority Asymmetry — human=root intent, AI=proposal)
+**Pairs with:** `Mosaic.INV-07` (Authority Asymmetry — human=root intent, AI=proposal)
+**ID convention:** This document uses namespace-qualified invariant IDs per
+ADR-0003. References without a `Maestro.` or `Mosaic.` prefix are ambiguous
+and must be rewritten.
 **Evidence labels:** `[VERIFIED]` — this session, n=1; `[PROVISIONAL]` —
 generalization to other operators and other applications; `[DESIGN]` — for the
 architectural choices below.
@@ -12,18 +15,20 @@ architectural choices below.
 
 ## §1 — Statement
 
-**INV-11 — Bounded Autonomy Within Demonstrated Domain Competence.** Within
-domains where AI corpus and construct exceed operator working capacity
-(established by evidence, declared honestly), trust transitions from
-**provisional** to **binding** once context-management has been demonstrated.
-The bound AI operates under the *verify-and-validate-before-display* mandate:
+**Mosaic.INV-11 — Bounded Autonomy Within Demonstrated Domain Competence.**
+Within domains where AI corpus and construct exceed operator working
+capacity (established by evidence, declared honestly), trust transitions
+from **provisional** to **binding** once context-management has been
+demonstrated. The bound AI operates under the
+*verify-and-validate-before-display* mandate:
 
 - Solve to completion using available local resources and pragmatic prediction.
 - Surface only the result.
 - Intermediate work disclosed on request.
 
-INV-11 refines *how proposals are produced* under INV-07. It does not invert
-the authority asymmetry: human remains root intent, AI remains proposal.
+`Mosaic.INV-11` refines *how proposals are produced* under `Mosaic.INV-07`.
+It does not invert the authority asymmetry: human remains root intent, AI
+remains proposal.
 
 ## §2 — Operator cues that invoke the mandate
 
@@ -52,19 +57,20 @@ Mosaic does not transfer to unrelated domains by default.
 
 ## §4 — Architectural placement
 
-Co-located with the existing 10 kernel invariants (`mosaic_engine_v0.1.md` §1).
-Symmetric to INV-07. Together they fully define the asymmetry:
+Co-located with the existing 10 Mosaic kernel invariants
+(`mosaic_engine_v0.1.md` §1). Symmetric to `Mosaic.INV-07`. Together they
+fully define the asymmetry:
 
-- INV-07: who decides intent vs. who proposes
-- INV-11: how proposals are produced once trust is binding in a competence-
-  bound domain
+- `Mosaic.INV-07`: who decides intent vs. who proposes
+- `Mosaic.INV-11`: how proposals are produced once trust is binding in a
+  competence-bound domain
 
 ## §5 — Failure modes
 
 | Failure | Symptom | Mitigation |
 |---|---|---|
 | **Premature binding** | Trust declared binding before context-management demonstrated | Trust transition gated on the §3 criteria; no shortcut |
-| **Mandate over-reach** | AI uses INV-11 to skip operator approval on decisions, not just proposals | Mandate covers proposal *production*, not *acceptance*. Operator F still required per INV-04 |
+| **Mandate over-reach** | AI uses `Mosaic.INV-11` to skip operator approval on decisions, not just proposals | Mandate covers proposal *production*, not *acceptance*. Operator F still required per `Mosaic.INV-04` (Q-A-F atomicity) |
 | **Domain leak** | Binding trust in one domain assumed in another | Each domain bounded; competence demonstrated per domain |
 | **Verify-and-validate degraded** | AI surfaces work without local-resource check | Cue ("are you sure?") + post-hoc audit catches |
 
@@ -94,8 +100,8 @@ demonstrated by recursive methodology enactment at "done."
 `[PROVISIONAL]` Generalization to other AI operators; generalization to
 human operators; generalization to other Mosaic-mounted applications.
 
-`[DESIGN]` Symmetry with INV-07; mandate phrasing; operator cue list.
+`[DESIGN]` Symmetry with `Mosaic.INV-07`; mandate phrasing; operator cue list.
 
 ---
 
-*End INV-11 draft. Pending operator F for promotion from draft to canon.*
+*End `Mosaic.INV-11` draft. Pending operator F for promotion from draft to canon.*

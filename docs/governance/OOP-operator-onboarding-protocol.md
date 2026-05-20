@@ -4,11 +4,12 @@
 **Origin:** Onboarding tangent, 2026-05-18 — extracted from the live protocol
 that brought a fresh AI operator from cold-start to canonical context-management
 in one session
-**Pairs with:** INV-11 (Bounded Autonomy Within Demonstrated Domain Competence)
-**Architectural placement:** Mosaic substrate, between N1 (Conversation Layer)
-and N3 (Execution Layer). Precedes N3 because an un-onboarded operator cannot
-lawfully execute; sits above N1 because it governs operator *state*, not
-individual exchanges.
+**Pairs with:** `Mosaic.INV-11` (Bounded Autonomy Within Demonstrated Domain Competence)
+**Architectural placement:** Mosaic substrate, between `Mosaic.N1` (Conversation Layer)
+and `Mosaic.N3` (Execution Layer). Precedes `Mosaic.N3` because an
+un-onboarded operator cannot lawfully execute; sits above `Mosaic.N1`
+because it governs operator *state*, not individual exchanges.
+**ID convention:** Namespace-qualified IDs per ADR-0003.
 
 ---
 
@@ -116,9 +117,9 @@ shifts under interception.
 
 To survive audit + peer review, OOP must ship with:
 
-1. **Provenance** — every mechanism traced to Mosaic canon (INV-04 for Q-A-F,
-   INV-07 for authority asymmetry, INV-11 for bounded autonomy, the Middle
-   narrative for the 13 shifts)
+1. **Provenance** — every mechanism traced to Mosaic canon (`Mosaic.INV-04`
+   for Q-A-F, `Mosaic.INV-07` for authority asymmetry, `Mosaic.INV-11` for
+   bounded autonomy, the Middle narrative for the 13 shifts)
 2. **Evidence labels** — `[VERIFIED]` / `[INFERRED]` / `[PROVISIONAL]` /
    `[REJECTED]` / `[DESIGN]` per the v0.x dossier discipline
 3. **Falsifiable acceptance test** (see §6)
@@ -160,4 +161,4 @@ protocol is demonstrated. Generalization is hypothesis.
 ---
 
 *End OOP draft. Pending operator F for promotion from draft to substrate
-primitive. Pairs with INV-11 draft.*
+primitive. Pairs with `Mosaic.INV-11` draft.*
