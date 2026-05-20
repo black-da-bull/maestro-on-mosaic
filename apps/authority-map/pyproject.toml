@@ -1,0 +1,25 @@
+[project]
+name = "maestro-authority-map"
+version = "0.1.0"
+description = "Canon-governance discipline for the Maestro/Mosaic repo. Source-class taxonomy + Promotion Matrix at the I/O boundary between claims and canon."
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+am = "authority_map.cli:main"
+authority-map = "authority_map.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["authority_map*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
