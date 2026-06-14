@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($dest = \"$env:TEMP\\\\maestro_miner_skill\"; if \\(Test-Path $dest\\) { Remove-Item -Recurse -Force $dest }; Expand-Archive -Path \"C:\\\\Users\\\\gamer\\\\Downloads\\\\maestro miner skill.zip\" -DestinationPath $dest -Force; Get-ChildItem -Recurse -File $dest | Select-Object FullName, Length | Format-Table -AutoSize)"
+    ]
+  }
+}
