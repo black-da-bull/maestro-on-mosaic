@@ -1,0 +1,24 @@
+[project]
+name = "maestro-triad-validator"
+version = "0.1.0"
+description = "Deterministic hard-control validator for Maestro Triad outputs (Show Summary, Creative UST, A/R Profile, Persona Style) emitted to Suno."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+triad-validator = "triad_validator.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["triad_validator*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

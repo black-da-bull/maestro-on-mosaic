@@ -93,14 +93,6 @@ version cuts, `docs(examples):` for run artifacts, `docs:` / `chore:` for
 supporting material. Release commits carry `Decision:` and, where applicable,
 `Surfaced-by:` trailers.
 
-## Branches
-
-- `main` — the Maestro application lineage, `v1.0` → `v4.5.5`.
-- `sem` — the **Song Excellence Matrix** and **FOIL**, archived as
-  substrate-layer components. The SEM is the linting system; FOIL is the
-  tiered-addressing system. Built on an event-sourced model: see `sem/README.md`.
-  `git checkout sem`.
-
 ## Fidelity
 
 Committed version files are clean spec — conversational framing and embedded
