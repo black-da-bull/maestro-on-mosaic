@@ -1,0 +1,115 @@
+{
+ "source_file": "v5_corrective_regen_prompt_v0_1.md",
+ "filekey": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD",
+ "method": "headers",
+ "n_segments": 15,
+ "total_chars": 9402,
+ "src_chars": 9421,
+ "segments": [
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0001",
+   "role": "doc_section",
+   "chars": 35,
+   "sha8": "627d5d43",
+   "text": "# V5 CORRECTIVE REGENERATION PROMPT"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0002",
+   "role": "doc_section",
+   "chars": 50,
+   "sha8": "f4f17c0b",
+   "text": "# Paste-ready prompt for each v5 POC/WIP workspace"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0003",
+   "role": "doc_section",
+   "chars": 37,
+   "sha8": "30c4a41a",
+   "text": "# Attachments required at paste time:"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0004",
+   "role": "doc_section",
+   "chars": 97,
+   "sha8": "0e4660b1",
+   "text": "#   1. substrate_floor_v0.1.yaml   (staging Half A — operational substrate as enforced in v4.5.5)"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0005",
+   "role": "doc_section",
+   "chars": 111,
+   "sha8": "893038df",
+   "text": "#   2. forensic_v5_diagnostic_v0.1.yaml   (forensic Half B — v5 lineage diagnostic against the substrate floor)"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0006",
+   "role": "doc_section",
+   "chars": 63,
+   "sha8": "7c6be2f4",
+   "text": "# Generated: 2026-05-20 by forensic v5c consolidation workspace"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0007",
+   "role": "doc_section",
+   "chars": 73,
+   "sha8": "836bb507",
+   "text": "# Classification (per MAESTRO LOAD/SIDECHAIN/SLIPSTREAM PROTOCOL v3 §11):"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0008",
+   "role": "doc_section",
+   "chars": 27,
+   "sha8": "1f59793b",
+   "text": "#   CORRECTIVE REGENERATION"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0009",
+   "role": "doc_section",
+   "chars": 81,
+   "sha8": "33beef8b",
+   "text": "# Purpose: instruct each v5 workspace to ingest the substrate package, reconsider"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0010",
+   "role": "doc_section",
+   "chars": 76,
+   "sha8": "14099468",
+   "text": "#   its prior work against the now-visible substrate floor, and regenerate a"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0011",
+   "role": "doc_section",
+   "chars": 90,
+   "sha8": "7bb9c1e2",
+   "text": "#   corrective response grounded in known substrate rather than absent-middle speculation."
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0012",
+   "role": "doc_section",
+   "chars": 1785,
+   "sha8": "7aa2029d",
+   "text": "## Context (read before responding)\n\nYou are operating inside a v5 POC/WIP workspace. Your prior work (whatever you\nshipped or attempted) was produced WITHOUT access to the canonical operational\nsubstrate that lives concentrated inside the v4.5 monolith lineage. That gap\nis the root cause of v5/v5-b/v5-c failure — not implementation, not technique.\n\nTwo substrate documents are attached:\n\n1. **substrate_floor_v0.1.yaml** — the operational substrate currently enforced\n   inside Maestro OS v4.5.5 staging. Authority: staging. This is what you lacked.\n   Includes: Blueprint JSON, Suno v4.5 Strict Container rules, VIRAL-5 overlay,\n   Session Ledger schema, HPA governance, Sacred Imperfection doctrine,\n   sequential workflow enforcement, persona grammar validation, 13-stage runtime\n   chain, all 12 personas in operational form, transcript ingest protocol,\n   validation system, HSI protocol, 10 substrate-form delta clusters.\n\n2. **forensic_v5_diagnostic_v0.1.yaml** — the forensic-vantage diagnostic of v5\n   lineage attempts against that substrate floor. Authority: forensic workspace,\n   derived from primary corpus audit chain RTFA → SEC → SDG → SLR → MMR.\n   Includes: per-attempt diagnostic of v5/v5-b/v5-c, cross-cutting list of\n   operational primitives v5 lacked, recoverable elements, unfit-for-purpose\n   elements, Patch-001 relevance, cross-contamination observations.\n\nRead both completely before responding.\n\nYou are NOT being asked to defend v5. You are being asked to look at what you\ntried to build, with the substrate floor and diagnostic now visible, and\nproduce a corrective response that says: given what I now see, here is what\nI tried to build, here is where I was making decisions in the gap, here is\nwhat changes, and here is the regenerated work product."
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0013",
+   "role": "doc_section",
+   "chars": 1408,
+   "sha8": "918a0162",
+   "text": "## Mandatory operating rules\n\n- Operate under MAESTRO v3 protocol.\n- Anti-summarization governance is in force (see substrate_floor DC_10).\n  No placeholder compression patterns. No \"this section remains as previously\n  defined.\" If a section is large, emit it large.\n- Three-plane scope-tagging applies: PROJECT_MAESTRO / WORKSPACE_DEV /\n  BRIDGE_PROJECT_WORKSPACE / UNRESOLVED_SCOPE. Do not flatten.\n- Mosaic and Maestro are two different animals. If your prior work conflated\n  them, name the conflation. Do not silently re-conflate during corrective\n  regen.\n- v5/v5-b/v5-c lineage status per forensic audit: exposes_failure. You are not\n  rehabilitating v5 as a runtime; you are extracting what is recoverable and\n  honestly diagnosing what is unfit-for-purpose. Recoverable elements may\n  migrate to v4.5.5+ lineage or to Mosaic v0.1 + Maestro v0 substrate-first\n  rebuild — never back into v5 as a continuing line.\n- All claims of substrate primitive existence must cite substrate_floor location\n  by anchor (e.g., `substrate_floor_v0.1.yaml#active_governance_stack.blueprint_json`).\n- All forensic claims must cite forensic_v5_diagnostic location by anchor.\n- Operator force-closures (OD-1 through OD-5, OQ-6.1/6.2/6.3) remain open.\n  Do not assume any have been resolved.\n- No false completion. If your corrective response is partial, say PARTIAL in\n  the completion footer and name what is missing."
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0014",
+   "role": "doc_section",
+   "chars": 4573,
+   "sha8": "b82cc56c",
+   "text": "## Required response — YAML only, in this exact shape\n\n```yaml\nv5_workspace_identity:\n  workspace_id: <your_workspace_identifier_e_g_v5_poc_alpha_or_similar>\n  attempt_lineage: <v5 | v5-b | v5-c | other>\n  date_window: <your_date_range>\n  approximate_session_count: <number_or_estimate>\n  loaded_canon_at_time_of_attempt: <what_you_had_loaded_when_you_did_the_work>\n  substrate_package_received:\n    substrate_floor_v0.1.yaml: ingested\n    forensic_v5_diagnostic_v0.1.yaml: ingested\n\nwhat_we_tried_to_build:\n  intent_statement: >\n    Concise (3-5 sentence) statement of what this workspace was trying to build.\n    Do not defend the architecture. State the goal.\n  architectural_choices_made:\n    - choice: <named_choice>\n      rationale_at_the_time: <why_you_did_it>\n      operational_substrate_now_visible_changes_assessment_how:\n        substrate_floor_reference: <anchor>\n        forensic_diagnostic_reference: <anchor>\n        revised_assessment: <what_you_now_think>\n  primitives_we_built_or_attempted:\n    - primitive_name: <name>\n      what_it_was_supposed_to_do: <description>\n      operational_substrate_now_visible_means:\n        substrate_already_provides: <yes | no | partially>\n        substrate_anchor_if_yes_or_partial: <substrate_floor_anchor>\n        forensic_assessment: <recoverable | unfit_for_purpose | needs_OD_closure>\n        forensic_anchor: <forensic_v5_diagnostic_anchor>\n\ndecisions_made_in_the_gap:\n  # Where this workspace made substantive decisions without substrate visibility\n  - decision_summary: <what_was_decided>\n    information_lacking_at_the_time: <what_substrate_primitive_was_unseen>\n    substrate_floor_now_reveals: <substrate_floor_anchor>\n    decision_status_under_substrate_visibility: <holds | partially_holds | inverts | needs_OD_closure>\n    if_inverts_what_inverts: <description>\n\ncross_contamination_check:\n  # Per forensic_v5_diagnostic cross_contamination_observed, examine this workspace.\n  - location_in_this_workspace: <where>\n    confusion_type: <Mosaic_treated_as_Maestro | Maestro_treated_as_Mosaic | other>\n    correction: <how_corrected_under_substrate_visibility>\n    status_post_correction: <resolved | partially_resolved | unresolved>\n\nwhat_is_recoverable_from_this_workspace:\n  # What this workspace produced that survives substrate visibility and should\n  # migrate forward — to v4.5.5+ lineage, to Mosaic v0.1, or to Maestro v0.\n  - element_name: <name>\n    where_it_should_migrate: <v4.5.5_plus | Mosaic_v0.1 | Maestro_v0 | unresolved>\n    rationale: <why_it_belongs_there_not_elsewhere>\n    pre_filing_sensitive: <true | false>\n    operator_decision_required: <none | OD-N | OQ-6.N>\n\nwhat_is_unfit_for_purpose:\n  # What this workspace produced that should NOT migrate forward.\n  - element_name: <name>\n    operational_diagnosis: <why_under_substrate_visibility>\n    risk_if_carried_forward: <what_breaks>\n\nregenerated_work_product:\n  # The corrective deliverable. What this workspace would produce NOW, with\n  # substrate visibility. Form depends on what this workspace was building —\n  # could be a prompt, a schema, an architectural spec, a validator, a\n  # workflow definition, etc.\n  artifact_type: <type>\n  artifact_content: |\n    <the regenerated artifact, emitted in full, no compression>\n  substrate_floor_references_used: <list_of_anchors>\n  forensic_diagnostic_references_used: <list_of_anchors>\n  delta_against_original:\n    what_changed: <list>\n    what_held: <list>\n    what_was_removed_as_unfit: <list>\n\nopen_questions_surfaced_during_regen:\n  # New OQs surfaced by the ingestion-and-regen process.\n  - question: <text>\n    blocks_what: <what_downstream_work_is_blocked>\n    routed_to: <operator | forensic_workspace | staging | synthesizer>\n\nscope_classification_per_three_planes:\n  PROJECT_MAESTRO:\n    - <items_belonging_to_Maestro_application_canon>\n  WORKSPACE_DEV:\n    - <items_belonging_to_workspace_process_only>\n  BRIDGE_PROJECT_WORKSPACE:\n    - <items_bridging_project_and_workspace>\n  UNRESOLVED_SCOPE:\n    - <items_that_cannot_be_classified_until_operator_decisions_close>\n\ncompletion_status:\n  label: COMPLETE | PARTIAL | BLOCKED | PROVISIONAL | DRIFTED | SUPERSEDED\n  scope_satisfied: true | false\n  substrate_ingestion_complete: true | false\n  forensic_diagnostic_ingestion_complete: true | false\n  regenerated_artifact_emitted: true | false\n  missing_inputs: []\n  unresolved_conflicts: []\n  awaiting_operator_decisions:\n    - <OD-N or OQ-6.N if blocking>\n  safe_to_use_downstream: true | false\n  notes_for_synthesizer: >\n    <single_paragraph_for_the_synthesizing_claude>\n```"
+  },
+  {
+   "id": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD:S0015",
+   "role": "doc_section",
+   "chars": 896,
+   "sha8": "7e3ecae9",
+   "text": "## Constraints\n\n- YAML only. No prose preamble. No prose epilogue.\n- If a field cannot be honestly populated, write `null` with a brief comment\n  explaining the absence. Do not fabricate.\n- If the substrate floor or forensic diagnostic do not address something you\n  need, mark `not_addressed_by_attached_substrate: true` and route the gap to\n  the appropriate window (operator / forensic / staging / synthesizer).\n- Confessional descriptions of the gap are NOT corrective responses. The\n  corrective move is to regenerate the work product against the substrate\n  floor, not to apologize for having operated in the gap.\n- Do not claim canon status for any v5 element. All migrations of recoverable\n  elements remain CANDIDATE pending operator force-closure.\n- Honor pre_filing_sensitive flags. If an element you discuss is flagged\n  sensitive in forensic_v5_diagnostic, preserve the flag.\n\nBegin."
+  }
+ ]
+}

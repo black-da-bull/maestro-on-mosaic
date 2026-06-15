@@ -1,0 +1,1325 @@
+{
+ "meta": {
+  "snapshot": "maestro_snapshot_v0.1",
+  "snapshot_version": "v0.1",
+  "built_utc": "2026-06-14T03:41:09.252422Z",
+  "canon_kernel_version": "5.0.2-dedup-kernel (generated 2025-12-25T04:24:43Z)",
+  "purpose": "R1 preservation: collect the Maestro/Mosaic asset into one hashed versioned bundle",
+  "preservation_only": "files copied verbatim; nothing edited; derived views segregated as non-canon",
+  "file_count": 131,
+  "total_bytes": 28365606,
+  "missing_planned_files": []
+ },
+ "files": [
+  {
+   "category": "CANON_KERNEL (5.0.2-dedup-kernel)",
+   "path": "01_canon_kernel/maestro.yaml",
+   "role": "orchestrator kernel; declares the submodule set",
+   "version": "5.0.2-dedup-kernel",
+   "bytes": 1165,
+   "sha256": "30dc570ea01aea36d7f8d7f8f2c2b25ba65b149820afa8d8571a77c1e5da52da",
+   "source": "/mnt/user-data/uploads/maestro.yaml",
+   "source_mtime": "2026-06-14T03:36:31.945528Z"
+  },
+  {
+   "category": "CANON_KERNEL (5.0.2-dedup-kernel)",
+   "path": "01_canon_kernel/template_technical_ust.yaml",
+   "role": "Technical UST = typed compiler contract (8-axis THY/VOC/STY/TIM/PER/POST/MAP/LYR)",
+   "version": "5.0.2-dedup-kernel",
+   "bytes": 19738,
+   "sha256": "acfadbe3f129d6feb0260066d9641a023bae595198a539b8fe274ff0e6c931a9",
+   "source": "/mnt/user-data/uploads/template_technical_ust.yaml",
+   "source_mtime": "2026-06-14T03:36:32.103314Z"
+  },
+  {
+   "category": "CANON_KERNEL (5.0.2-dedup-kernel)",
+   "path": "01_canon_kernel/template_creative_ust.yaml",
+   "role": "Creative UST = human authoring surface / session sheet",
+   "version": "5.0.2-dedup-kernel",
+   "bytes": 4672,
+   "sha256": "49c7737e6127582b67fbf18757d2496286dad5dbccf2a7ee646ef3787451beac",
+   "source": "/mnt/user-data/uploads/template_creative_ust.yaml",
+   "source_mtime": "2026-06-14T03:36:32.157037Z"
+  },
+  {
+   "category": "CANON_KERNEL (5.0.2-dedup-kernel)",
+   "path": "01_canon_kernel/song_excellence.yaml",
+   "role": "SEG governance substrate (lossless; do-not-compress)",
+   "version": "5.0.2-dedup-kernel",
+   "bytes": 662119,
+   "sha256": "70d1a27a8475324d65d5b5874b143f552ea8ca87cb6df393bbbd2b72a0513513",
+   "source": "/mnt/user-data/uploads/song_excellence.yaml",
+   "source_mtime": "2026-06-14T03:36:32.076091Z"
+  },
+  {
+   "category": "CANON_KERNEL (5.0.2-dedup-kernel)",
+   "path": "01_canon_kernel/houseinorder.yaml",
+   "role": "historical_source submodule (verbatim song session)",
+   "version": "5.0.2-dedup-kernel",
+   "bytes": 553856,
+   "sha256": "9ccf65a6945559d676ae377b9f539a300071b977f6761cc05c084f0a616f68aa",
+   "source": "/mnt/user-data/uploads/houseinorder.yaml",
+   "source_mtime": "2026-06-14T03:36:32.077304Z"
+  },
+  {
+   "category": "CANON_KERNEL (5.0.2-dedup-kernel)",
+   "path": "01_canon_kernel/inmyroom.yaml",
+   "role": "historical_source submodule (verbatim song session)",
+   "version": "5.0.2-dedup-kernel",
+   "bytes": 78349,
+   "sha256": "eb5732e92f2bdf95f4bd0cf5f648587eab16372e1d12110b3a3d026eb1eb7789",
+   "source": "/mnt/user-data/uploads/inmyroom.yaml",
+   "source_mtime": "2026-06-14T03:36:32.306292Z"
+  },
+  {
+   "category": "ARCHITECTURE",
+   "path": "02_architecture/unified_hierarchy_full.docx",
+   "role": "master 24-part multi-session integration hierarchy",
+   "version": "n/a",
+   "bytes": 46526,
+   "sha256": "da688215900d615078162413db483c022450b7cec11325bbc6db767940fe6d64",
+   "source": "/mnt/user-data/uploads/unified_hierarchy_full.docx",
+   "source_mtime": "2026-06-14T03:36:31.956491Z"
+  },
+  {
+   "category": "ARCHITECTURE",
+   "path": "02_architecture/Project_Chimera_Growth_to_V5_Report.pdf",
+   "role": "Chimera->V5 growth report",
+   "version": "n/a",
+   "bytes": 17474,
+   "sha256": "204cd4eb9f66972a4256c486f63c7cdf8d1b7ade5007ad12db9eaedceda8251c",
+   "source": "/mnt/user-data/uploads/Project_Chimera_Growth_to_V5_Report.pdf",
+   "source_mtime": "2026-06-13T03:46:18.551383Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/00-System-Prompt_v3_1_2.md",
+   "role": "v3.1.2 system prompt",
+   "version": "n/a",
+   "bytes": 3160,
+   "sha256": "ff20ba346f8587c52c6b788eb8470e01f40700874f14ea6f6ddfef5643f5c6a9",
+   "source": "/mnt/user-data/uploads/00-System-Prompt_v3_1_2.md",
+   "source_mtime": "2026-06-13T04:06:41.746592Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/10-Custom-Instructions_v3_1_2.md",
+   "role": "v3.1.2 custom instructions",
+   "version": "n/a",
+   "bytes": 3720,
+   "sha256": "785fe0706ff8cf6f1de96c774a49840934c23a41d816ea415b1f7ef3d2f4d3e7",
+   "source": "/mnt/user-data/uploads/10-Custom-Instructions_v3_1_2.md",
+   "source_mtime": "2026-06-13T04:06:41.759388Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/20-Knowledge-Spine_v3_1_2.md",
+   "role": "v3.1.2 knowledge spine",
+   "version": "n/a",
+   "bytes": 2996,
+   "sha256": "dc5abdedd7adc9d5ae75b14b1b7f8558c6d4479948328e61e6e9c9aab4467793",
+   "source": "/mnt/user-data/uploads/20-Knowledge-Spine_v3_1_2.md",
+   "source_mtime": "2026-06-13T04:06:41.723078Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/30-Configuration_v3_1_2.md",
+   "role": "v3.1.2 configuration",
+   "version": "n/a",
+   "bytes": 8487,
+   "sha256": "fec171def74fa3452324d1c818556513de8476cef7441100fb8e575509fe8052",
+   "source": "/mnt/user-data/uploads/30-Configuration_v3_1_2.md",
+   "source_mtime": "2026-06-13T04:06:41.817594Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/40-Template-Archive-Notes.md",
+   "role": "v3.1.2 template archive notes",
+   "version": "n/a",
+   "bytes": 357,
+   "sha256": "2bfb1e180d25d73b5f5fc100457b6fb87e3ce398d5696bd0834e6c42a5412055",
+   "source": "/mnt/user-data/uploads/40-Template-Archive-Notes.md",
+   "source_mtime": "2026-06-13T04:06:41.744865Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/os_maestro_momoney_configuration.md",
+   "role": "momoney OS configuration",
+   "version": "n/a",
+   "bytes": 7756,
+   "sha256": "9ea5f3da0312b0c9e982279eaa4c6e5dd7f1d1266f1c1a97a9d40ad371cac572",
+   "source": "/mnt/user-data/uploads/os_maestro_momoney_configuration.md",
+   "source_mtime": "2026-06-13T03:46:18.126763Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/os_maestro_momoney_customInstructions.md",
+   "role": "momoney OS custom instructions",
+   "version": "n/a",
+   "bytes": 2215,
+   "sha256": "9b37fde18fe460bc9fa1b146866949e27e0d77793db99a36cf85ff97a754ffc1",
+   "source": "/mnt/user-data/uploads/os_maestro_momoney_customInstructions.md",
+   "source_mtime": "2026-06-13T03:46:18.129865Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/os_maestro_momoney_knowledgeSpine.md",
+   "role": "momoney OS knowledge spine",
+   "version": "n/a",
+   "bytes": 2125,
+   "sha256": "7e42f6cee7fbfe528703ddf3bbee02fbc6bba07e7b3bde9b814be47404211e55",
+   "source": "/mnt/user-data/uploads/os_maestro_momoney_knowledgeSpine.md",
+   "source_mtime": "2026-06-13T03:46:18.134536Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/UniversalMaestro_v3_0g_CustomGPT_Instructions.md",
+   "role": "Universal Maestro v3.0g instructions (stub)",
+   "version": "n/a",
+   "bytes": 67,
+   "sha256": "1d62feaf75589d5931885915be724a86140c6b0867502da0318f122417b58c47",
+   "source": "/mnt/user-data/uploads/UniversalMaestro_v3_0g_CustomGPT_Instructions.md",
+   "source_mtime": "2026-06-13T04:07:36.200415Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/UniversalMaestro_v3_0g_MiniPrompts.md",
+   "role": "Universal Maestro v3.0g mini-prompts (stub)",
+   "version": "n/a",
+   "bytes": 64,
+   "sha256": "05371ac14c9229291cdf1ffb29c64d21214426c02bf4cc03b521ac0b806516fe",
+   "source": "/mnt/user-data/uploads/UniversalMaestro_v3_0g_MiniPrompts.md",
+   "source_mtime": "2026-06-13T04:07:36.150579Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/UniversalMaestro_v3_0g_OnChatValidators.md",
+   "role": "Universal Maestro v3.0g on-chat validators (stub)",
+   "version": "n/a",
+   "bytes": 100,
+   "sha256": "2c85985eafb40113d1daa7f4923e81a9d883e6c8584e596eb5d47733747b2eab",
+   "source": "/mnt/user-data/uploads/UniversalMaestro_v3_0g_OnChatValidators.md",
+   "source_mtime": "2026-06-13T04:07:36.162817Z"
+  },
+  {
+   "category": "OS_CONFIG (Custom-GPT scaffolding)",
+   "path": "03_os_config/UniversalMaestro_v3_0g_SessionStarter.txt",
+   "role": "Universal Maestro v3.0g session starter (stub)",
+   "version": "n/a",
+   "bytes": 70,
+   "sha256": "eecbed3c5f98b4527394e2cacc201997f4e13de9c7d7011233274b62c638ae6c",
+   "source": "/mnt/user-data/uploads/UniversalMaestro_v3_0g_SessionStarter.txt",
+   "source_mtime": "2026-06-13T04:07:36.143659Z"
+  },
+  {
+   "category": "RUNTIME_GROUND_TRUTH (actual sessions)",
+   "path": "04_runtime_ground_truth/who_dat.pdf",
+   "role": "v4.5.5 staging session in Custom-GPT admin preview = PRIMARY behavioral ground truth",
+   "version": "n/a",
+   "bytes": 1374089,
+   "sha256": "9bbda53cf448080b88082fa1fafbe5a1379e06771fc69e2f64cbe01eca7eff8b",
+   "source": "/mnt/user-data/uploads/who_dat.pdf",
+   "source_mtime": "2026-06-13T04:17:04.744461Z"
+  },
+  {
+   "category": "RUNTIME_GROUND_TRUTH (actual sessions)",
+   "path": "04_runtime_ground_truth/v2-6-4-5-5__maestro_evolution_execution-evidence.txt",
+   "role": "v2->v4.5.5 App execution evidence (pre-v5, pre-Mosaic)",
+   "version": "n/a",
+   "bytes": 1873425,
+   "sha256": "afdb379a795364c867db3e27411d447a721990a81e474c5620bd575925dd56cf",
+   "source": "/mnt/user-data/uploads/v2-6-4-5-5__maestro_evolution_execution-evidence.txt",
+   "source_mtime": "2026-06-14T03:07:13.745346Z"
+  },
+  {
+   "category": "RUNTIME_GROUND_TRUTH (actual sessions)",
+   "path": "04_runtime_ground_truth/conversation_foil-based-tiered-system_2026-04-03-1252_agi.md",
+   "role": "canonical FOIL 4-tier compiler session + SME persona council",
+   "version": "n/a",
+   "bytes": 889686,
+   "sha256": "b5fb1298e697e9b7143bc4133adfc60443438fba37d89eea04537bf3a72f1d9b",
+   "source": "/mnt/user-data/uploads/conversation_foil-based-tiered-system_2026-04-03-1252_agi.md",
+   "source_mtime": "2026-06-14T03:07:13.686802Z"
+  },
+  {
+   "category": "RUNTIME_GROUND_TRUTH (actual sessions)",
+   "path": "04_runtime_ground_truth/conversation_maestro-chat---eldrik_2026-03-28-2105_agi.json",
+   "role": "Eldrik runtime session (persona corpus + soul/flow dense)",
+   "version": "n/a",
+   "bytes": 3813793,
+   "sha256": "ab3720aedb06c98503242e18b1ce33f082ab334da0fa135f0ca0de70df164752",
+   "source": "/mnt/user-data/uploads/conversation_maestro-chat---eldrik_2026-03-28-2105_agi.json",
+   "source_mtime": "2026-06-14T03:07:13.897495Z"
+  },
+  {
+   "category": "DEV_SESSIONS (execution chain record)",
+   "path": "05_dev_sessions/longDevWorkLog.txt",
+   "role": "long dev work log 1",
+   "version": "n/a",
+   "bytes": 342588,
+   "sha256": "2018518d7318947abb47039e5cdbe8a3020322b3e6606403ff033904dac74010",
+   "source": "/mnt/user-data/uploads/longDevWorkLog.txt",
+   "source_mtime": "2026-06-14T03:35:09.815429Z"
+  },
+  {
+   "category": "DEV_SESSIONS (execution chain record)",
+   "path": "05_dev_sessions/longDevWorkLog2.txt",
+   "role": "long dev work log 2",
+   "version": "n/a",
+   "bytes": 268352,
+   "sha256": "fe590b6fd4e879f14b2926e732555d5a96396fe2dbf4319a74796a519f082a87",
+   "source": "/mnt/user-data/uploads/longDevWorkLog2.txt",
+   "source_mtime": "2026-06-14T03:35:09.749151Z"
+  },
+  {
+   "category": "DEV_SESSIONS (execution chain record)",
+   "path": "05_dev_sessions/maestro_devsession_iterative_1.txt",
+   "role": "iterative Maestro dev session",
+   "version": "n/a",
+   "bytes": 281799,
+   "sha256": "ee4a5a6294a654d8beb4ec1ab083ccff44f29973b97bd47708b1f90c5fcdd042",
+   "source": "/mnt/user-data/uploads/maestro_devsession_iterative_1.txt",
+   "source_mtime": "2026-06-14T03:35:09.807815Z"
+  },
+  {
+   "category": "DEV_SESSIONS (execution chain record)",
+   "path": "05_dev_sessions/maestrov5-dev-ust_and_sem-sessions.txt",
+   "role": "v5 dev UST + SEM sessions",
+   "version": "n/a",
+   "bytes": 704187,
+   "sha256": "65433c23d2ff1e88bbf82edd7482572cd50edc680e60d2dd76a9d94d42c96c57",
+   "source": "/mnt/user-data/uploads/maestrov5-dev-ust_and_sem-sessions.txt",
+   "source_mtime": "2026-06-14T03:36:32.045743Z"
+  },
+  {
+   "category": "DEV_SESSIONS (execution chain record)",
+   "path": "05_dev_sessions/poc1_os_mestro.txt",
+   "role": "proof-of-concept OS Maestro",
+   "version": "n/a",
+   "bytes": 22416,
+   "sha256": "d3385b1e54428973f7af0e4f6508797578996b7db55d8250883ebf84aca992dc",
+   "source": "/mnt/user-data/uploads/poc1_os_mestro.txt",
+   "source_mtime": "2026-06-14T03:35:09.798215Z"
+  },
+  {
+   "category": "DEV_SESSIONS (execution chain record)",
+   "path": "05_dev_sessions/houseinorder_1.txt",
+   "role": "houseinorder source variant",
+   "version": "n/a",
+   "bytes": 528238,
+   "sha256": "213b2cddc964b13cc89fdb894700c5e36e3cf33d245aa4b8ebe5939142d5cd07",
+   "source": "/mnt/user-data/uploads/houseinorder_1.txt",
+   "source_mtime": "2026-06-14T03:35:09.839504Z"
+  },
+  {
+   "category": "SCHEMAS",
+   "path": "06_schemas/project_schema.json",
+   "role": "project schema",
+   "version": "n/a",
+   "bytes": 1017,
+   "sha256": "6c6bf4aa4680cc755804ab2b28ba9f30ddf7eff6ad0bd834ebc7dc16b0963141",
+   "source": "/mnt/user-data/uploads/project_schema.json",
+   "source_mtime": "2026-06-13T04:06:57.076421Z"
+  },
+  {
+   "category": "SCHEMAS",
+   "path": "06_schemas/telemetry_schema.json",
+   "role": "telemetry schema",
+   "version": "n/a",
+   "bytes": 804,
+   "sha256": "7c6164360aeab64a7a1afd13480d19a156eb186163eb9fe61dd8f1d9aaa73e49",
+   "source": "/mnt/user-data/uploads/telemetry_schema.json",
+   "source_mtime": "2026-06-13T04:06:57.203239Z"
+  },
+  {
+   "category": "SCHEMAS",
+   "path": "06_schemas/vvlog_schema.json",
+   "role": "vvlog schema",
+   "version": "n/a",
+   "bytes": 1345,
+   "sha256": "c01abb00b8085ab42e4b33846d467caaa4ce6554d36a84b6c47453202dd8df3f",
+   "source": "/mnt/user-data/uploads/vvlog_schema.json",
+   "source_mtime": "2026-06-13T04:06:57.142921Z"
+  },
+  {
+   "category": "SCHEMAS",
+   "path": "06_schemas/round_robin_notes_template.yaml",
+   "role": "SME round-robin notes template",
+   "version": "n/a",
+   "bytes": 3677,
+   "sha256": "1f4ec8d3dba79de7a007d8adefb31d3201c05349c4e2c2bf96078653a863e161",
+   "source": "/mnt/user-data/uploads/round_robin_notes_template.yaml",
+   "source_mtime": "2026-06-14T03:35:09.713385Z"
+  },
+  {
+   "category": "SCHEMAS",
+   "path": "06_schemas/song_excellence_sections.json",
+   "role": "SEG sections (sectioned index)",
+   "version": "n/a",
+   "bytes": 490211,
+   "sha256": "ee14059858ded4adc8b5ea5cb117f5b1606ad04b09b9bd7e2c80bb2e583027a7",
+   "source": "/mnt/user-data/uploads/song_excellence_sections.json",
+   "source_mtime": "2026-06-13T03:20:05.480902Z"
+  },
+  {
+   "category": "ASSETS",
+   "path": "07_assets/1781404710021_image.png",
+   "role": "diagram image (labeled MOSAIC -> represents Maestro)",
+   "version": "n/a",
+   "bytes": 271828,
+   "sha256": "d64758c8784c29d1fd71d9c2f57804477337c7643bf5dffa312edba129e97f5f",
+   "source": "/mnt/user-data/uploads/1781404710021_image.png",
+   "source_mtime": "2026-06-14T02:38:31.671486Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/Branch___Branch___Lyric_quality_baseline_-_Copy.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 148656,
+   "sha256": "6bb8253064e489f1c955c1be8b71c1477c94af33786d1d2ca80b8378d6f7be64",
+   "source": "/mnt/project/Branch___Branch___Lyric_quality_baseline_-_Copy.txt",
+   "source_mtime": "2026-06-14T01:04:35.868105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/DAY2_CLOSEOUT_REPORT_-_Copy.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 40224,
+   "sha256": "95bfddb0ecb85b8dcd247c1fbeeffda2172faa8195fcb302441b6435a5a2fae6",
+   "source": "/mnt/project/DAY2_CLOSEOUT_REPORT_-_Copy.md",
+   "source_mtime": "2026-06-14T01:04:35.196105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/KERNEL.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 3961,
+   "sha256": "b692127724716a98095af1a7be8dce2c3c2870f444b09c3eb18d8cd312c669fb",
+   "source": "/mnt/project/KERNEL.md",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/Yesterday-3-2026-11-dev_chat_worklog_-_Copy.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 696957,
+   "sha256": "11fdc81aa67d494b0e67eed1f1a6c453ec431e9c028522dd5f036fb3bcc81e5b",
+   "source": "/mnt/project/Yesterday-3-2026-11-dev_chat_worklog_-_Copy.txt",
+   "source_mtime": "2026-06-14T01:04:35.836105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/Yesterday_-_Copy.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 132635,
+   "sha256": "632ee5e99f32f77a6bc7d2ce8af6287f88b26c8915a3b57e487cb15758d13db1",
+   "source": "/mnt/project/Yesterday_-_Copy.txt",
+   "source_mtime": "2026-06-14T01:04:35.812105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/claude2.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 349779,
+   "sha256": "dd5ff85999a9310b45d208c0677fd9c8b9d063043e7037d310f1c1a19d8396dd",
+   "source": "/mnt/project/claude2.txt",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/convoluted_-_Copy.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 53525,
+   "sha256": "dc9b16509219d36b5ad44aed849cb0defbf2ae162f93d3df2959147ac8e435ce",
+   "source": "/mnt/project/convoluted_-_Copy.txt",
+   "source_mtime": "2026-06-14T01:04:35.184105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/day_2_snapshot_and_simulated_stashes_-_Copy.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 3676,
+   "sha256": "9472eb36b4fce89b45223c220da74b33459c4a7b07079bfb8eaf269ef294ddba",
+   "source": "/mnt/project/day_2_snapshot_and_simulated_stashes_-_Copy.md",
+   "source_mtime": "2026-06-14T01:04:35.744105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/fold_session_",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 213639,
+   "sha256": "a7943f3656fe69ca93245bb811f06ee118dda2189fcfcd4edff3948ae766ada1",
+   "source": "/mnt/project/fold_session_",
+   "source_mtime": "2026-06-14T02:45:44.762017Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/forensic_v5_diagnostic_v0_1.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 24303,
+   "sha256": "e74c0ee7c3169729e079ed4fb43ba3dd0a5031242f9afd885448240a9b259cb2",
+   "source": "/mnt/project/forensic_v5_diagnostic_v0_1.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/hidden_costs_of_custom_gpt_use_by_untrained_humans.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 25941,
+   "sha256": "e7fc910c179b4218d5aa1266ba644ee842d7b8dc41be81eb764933a7f31b3bfe",
+   "source": "/mnt/project/hidden_costs_of_custom_gpt_use_by_untrained_humans.txt",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/loss_demonstration_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 6391,
+   "sha256": "903e97799262d74ca036ba817fcc02f3e80c2f791f3e116ad41cf49a99a285c2",
+   "source": "/mnt/project/loss_demonstration_v0_1.md",
+   "source_mtime": "2026-06-14T01:01:18.824110Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro-custom_gpt-create_window",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 78229,
+   "sha256": "df560d2cae0778443d9bee1f7a9ecc19464f209defab75a74224f1cbebf56b68",
+   "source": "/mnt/project/maestro-custom_gpt-create_window",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro-custom_gpt-preview_window",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 13156,
+   "sha256": "a379c48ed53526647a4f010e327fca2f1d215bcdb1763abdf8a1e6bdb034b340",
+   "source": "/mnt/project/maestro-custom_gpt-preview_window",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_consolidation_snapshot_v0_1.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 14157,
+   "sha256": "4df3484e21d64c66336ce3dd89fd62fea8241c26ef9e0ba946370906501ef3ac",
+   "source": "/mnt/project/maestro_consolidation_snapshot_v0_1.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_day3_work_window_script_-_Copy.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 12569,
+   "sha256": "4a6cbb4cdf573b7a7d41f3ec71555022aa675aff27f3b1a1eff501402c7a828c",
+   "source": "/mnt/project/maestro_day3_work_window_script_-_Copy.md",
+   "source_mtime": "2026-06-14T01:04:35.176105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_month_synthesis_and_rebuild_blueprint_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 13946,
+   "sha256": "e142275772dd01d390da070ee5c0882799eda2680ccf87906f31b10e691435e6",
+   "source": "/mnt/project/maestro_month_synthesis_and_rebuild_blueprint_v0_1.md",
+   "source_mtime": "2026-06-14T01:01:18.564110Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_non-linear_version_chain_",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 1873615,
+   "sha256": "0bfb191af9d96c2bb97156e268fbc3e1ddd577695f8e460b8087e5ab0258259e",
+   "source": "/mnt/project/maestro_non-linear_version_chain_",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_v5_ust_sem_interwoven_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 7733,
+   "sha256": "a34e5a739c0a39fe000a6fe64aabf9c3e175b8ab2e73e635fb211b519929ab6c",
+   "source": "/mnt/project/maestro_v5_ust_sem_interwoven_v0_1.md",
+   "source_mtime": "2026-06-14T01:01:18.364110Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_verification_fork_v0_1.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 7651,
+   "sha256": "cdcac79b4ae47e2df4f82e4cd58ef54592f607ae8fd130bee749fc8d67a4ed7a",
+   "source": "/mnt/project/maestro_verification_fork_v0_1.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/maestro_version_changelog.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 9820,
+   "sha256": "af50127374b8e81416e14b841fd0c83becd0981cebfe9b955795e8f7faca7124",
+   "source": "/mnt/project/maestro_version_changelog.md",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/open_question_verification_queries_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 35356,
+   "sha256": "b0e2bb9cca769464bc47230bd0a5dc5a2f3a86d93f639fd8ae2cd6a8d01c2fe4",
+   "source": "/mnt/project/open_question_verification_queries_v0_1.md",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/song_excellence_governance_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 9150,
+   "sha256": "c77cba40e29bccd9d125cdc855162e22c354cd6af060b115867cb68f7d9d330e",
+   "source": "/mnt/project/song_excellence_governance_v0_1.md",
+   "source_mtime": "2026-06-14T01:01:17.628110Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/source_lineage_reconciliation_register_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 8639,
+   "sha256": "158f296a0d437edb2c14bc526f175ff665f2813b55a2f81068256af5052b52ee",
+   "source": "/mnt/project/source_lineage_reconciliation_register_v0_1.md",
+   "source_mtime": "2026-06-14T01:01:18.376110Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/stuck_-_Copy.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 396297,
+   "sha256": "c40f4067563350b92c611cb562c92beaf4c470a1f4258116061f1273b2e46fdc",
+   "source": "/mnt/project/stuck_-_Copy.txt",
+   "source_mtime": "2026-06-14T01:04:35.840105Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/v5_corrective_regen_prompt_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 9448,
+   "sha256": "d0c0bbd31a5d77438fbfad10ece23977f996dab462effecbb598fc62254e131e",
+   "source": "/mnt/project/v5_corrective_regen_prompt_v0_1.md",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/who_dat_runtime_assessment_v0_1.md",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 7346,
+   "sha256": "ee4c367c84caf9903b29790fd71193b83d41d689fcc21238413181b411bdaf98",
+   "source": "/mnt/project/who_dat_runtime_assessment_v0_1.md",
+   "source_mtime": "2026-06-14T01:01:18.632110Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/workspace_identity-maestro_v5-c.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 34707,
+   "sha256": "5492c45c25175d11f09a4e8ac88e7a6ce201b156138f208b53d19398f4606bb9",
+   "source": "/mnt/project/workspace_identity-maestro_v5-c.txt",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_2_maestro_v_5_b_yaml.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 18343,
+   "sha256": "182a08676fc231ccdd200c68eab7508b48880cb8e96ba3628e39553f49d70c15",
+   "source": "/mnt/project/ws_2_maestro_v_5_b_yaml.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_chatgpt_maestro_v5c_current_project_v5-c_really_v5.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 18199,
+   "sha256": "c5f8299becf46a666a64c67190ff648fc9230c30902e7e45f15087d8fcdf2c4f",
+   "source": "/mnt/project/ws_chatgpt_maestro_v5c_current_project_v5-c_really_v5.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_chatgpt_maestro_v_5_c_current_project_v_5_c_actually_v5_workspace_.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 18199,
+   "sha256": "c5f8299becf46a666a64c67190ff648fc9230c30902e7e45f15087d8fcdf2c4f",
+   "source": "/mnt/project/ws_chatgpt_maestro_v_5_c_current_project_v_5_c_actually_v5_workspace_.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_claude-project_v5-spine-staging_2026-05-20.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 23805,
+   "sha256": "7448636311a11d5682e7c045d6c3c7241b0a7c208cd9a3574e5f29a47dcdd401",
+   "source": "/mnt/project/ws_claude-project_v5-spine-staging_2026-05-20.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_forensic_maestro_mosaic_reconstruction_v0_1.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 60319,
+   "sha256": "5d7e343a1d825ecd2b6a9063c5c435832c37342d02495135740c3bc7d70737d6",
+   "source": "/mnt/project/ws_forensic_maestro_mosaic_reconstruction_v0_1.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_forensic_v5c_consolidation_v0_1.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 28294,
+   "sha256": "f78b8c68fd2c227009f51530e1d37a3ab0bc366fd59a654684911fa5c15b6e69",
+   "source": "/mnt/project/ws_forensic_v5c_consolidation_v0_1.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_maestro_mosaic_forensic_claude_v1_0.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 35759,
+   "sha256": "fa800675e94e700caa7a7aad629b69176001f9321875d7aed6cd3c8d6d7d4d66",
+   "source": "/mnt/project/ws_maestro_mosaic_forensic_claude_v1_0.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/ws_synthesizing-claude_day-1-prep_v1_0.yaml",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 34183,
+   "sha256": "5b2366f503a4925c65b506c5ce65740d527349b6e1a4bc04f647a4ced870686d",
+   "source": "/mnt/project/ws_synthesizing-claude_day-1-prep_v1_0.yaml",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "SUBSTRATE_CORPUS (/mnt/project)",
+   "path": "08_substrate_corpus/you_said_sonic_architect_said_delimiters.txt",
+   "role": "operator substrate corpus file (30-file workspace)",
+   "version": "n/a",
+   "bytes": 3786,
+   "sha256": "675ebf00c44f7d2a9aa2a3f378619e79ae65510507d4ae784df34921c30eb70f",
+   "source": "/mnt/project/you_said_sonic_architect_said_delimiters.txt",
+   "source_mtime": "1980-01-01T00:00:00Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/architecture_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6209,
+   "sha256": "2865017cafd487b2baa84cb4b3b1712e994f15c032f4349f1c83ed4bb5b7d053",
+   "source": "/mnt/user-data/outputs/architecture_v0.1.json",
+   "source_mtime": "2026-06-14T02:45:57.140571Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/eventlog_BRANCH_BRANCH_LYRIC_QUALITY_BASELINE_COP.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 157836,
+   "sha256": "ecb89597543cec64e879f7d33981038f3f9e841ce60a5f9a459dc60db8f4ebc0",
+   "source": "/mnt/user-data/outputs/eventlog_BRANCH_BRANCH_LYRIC_QUALITY_BASELINE_COP.json",
+   "source_mtime": "2026-06-14T01:13:11.231369Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/eventlog_STUCK_COPY_TXT.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 424158,
+   "sha256": "9081e7e1eae6d8ddb6d44a7cdef1d97fb729021ea2817175b4f2f4a8a00d4d85",
+   "source": "/mnt/user-data/outputs/eventlog_STUCK_COPY_TXT.json",
+   "source_mtime": "2026-06-14T01:13:11.274751Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/forensic_classify_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 3441,
+   "sha256": "1b55123d720e87312d0585fa2a73abf98287e163bdc0a6b739f9fc06a834d84d",
+   "source": "/mnt/user-data/outputs/forensic_classify_v0.1.py",
+   "source_mtime": "2026-06-14T01:18:48.596828Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/forensic_ingest_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 5447,
+   "sha256": "dc56b5ff2bfd50e7bac5b8b70e1846ddf7a899491ed6a9243fe9ed690837ba71",
+   "source": "/mnt/user-data/outputs/forensic_ingest_v0.1.py",
+   "source_mtime": "2026-06-14T01:36:15.863407Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/forensic_parse_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 3981,
+   "sha256": "beb3acfa1c0fa80bf94574d878e552c44007bb23678df5b45ea88169ea98487d",
+   "source": "/mnt/user-data/outputs/forensic_parse_v0.1.py",
+   "source_mtime": "2026-06-14T01:13:11.166784Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/graph_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 9371,
+   "sha256": "a4ea903442ef21a4f64fbf0479560129714edb42183e4fb891db3772215dd579",
+   "source": "/mnt/user-data/outputs/graph_v0.1.json",
+   "source_mtime": "2026-06-14T03:01:22.753108Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/guardrails_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6057,
+   "sha256": "85029598c7ee397166b10132cf3442d29e26b90174340dd00b054d4c53a5cd02",
+   "source": "/mnt/user-data/outputs/guardrails_v0.1.json",
+   "source_mtime": "2026-06-14T02:55:30.713164Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/knowledge_spine_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4933,
+   "sha256": "06452d42f5cf707b2693f2c925efc73f216e6cc1492fc389e2e013eb988f8b4f",
+   "source": "/mnt/user-data/outputs/knowledge_spine_v0.1.json",
+   "source_mtime": "2026-06-14T02:58:05.469115Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/loss_demonstration_v0.1.md",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6391,
+   "sha256": "903e97799262d74ca036ba817fcc02f3e80c2f791f3e116ad41cf49a99a285c2",
+   "source": "/mnt/user-data/outputs/loss_demonstration_v0.1.md",
+   "source_mtime": "2026-06-13T04:13:22.408690Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/maestro_month_synthesis_and_rebuild_blueprint_v0.1.md",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 13946,
+   "sha256": "e142275772dd01d390da070ee5c0882799eda2680ccf87906f31b10e691435e6",
+   "source": "/mnt/user-data/outputs/maestro_month_synthesis_and_rebuild_blueprint_v0.1.md",
+   "source_mtime": "2026-06-14T00:49:53.611473Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/maestro_v5_ust_sem_interwoven_v0.1.md",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 7733,
+   "sha256": "a34e5a739c0a39fe000a6fe64aabf9c3e175b8ab2e73e635fb211b519929ab6c",
+   "source": "/mnt/user-data/outputs/maestro_v5_ust_sem_interwoven_v0.1.md",
+   "source_mtime": "2026-06-13T03:41:16.677025Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass10_runtime_state_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6287,
+   "sha256": "c46ff77a40a817bb7db26f549d0cb918a98f88bb5ff1cb1c65cb72f24cf9fc68",
+   "source": "/mnt/user-data/outputs/pass10_runtime_state_v0.1.py",
+   "source_mtime": "2026-06-14T03:02:23.795636Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_chronology_index.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 1411917,
+   "sha256": "958209d07b41cdc5cd9066d7434f4c03e57a94b0530cf4303d88b9c470ea3c70",
+   "source": "/mnt/user-data/outputs/pass1_chronology_index.json",
+   "source_mtime": "2026-06-14T01:39:20.324117Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_event_chronology_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6494,
+   "sha256": "3f38c2e138e4ff6ffc7e5e33d505af0737b83fdc277efff059f520200aff843a",
+   "source": "/mnt/user-data/outputs/pass1_event_chronology_v0.1.py",
+   "source_mtime": "2026-06-14T01:39:18.780337Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_event_chronology_v0.2.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6667,
+   "sha256": "ea3e3f78e9f9a4aa72cfba114dc45899d149aa319d2174ba07cea7158cc6c498",
+   "source": "/mnt/user-data/outputs/pass1_event_chronology_v0.2.py",
+   "source_mtime": "2026-06-14T02:12:45.247570Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_event_chronology_v0.3.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6699,
+   "sha256": "c9572547833318bad56dfb0687a2941ea23707232674f3df8c24d6466bb35b60",
+   "source": "/mnt/user-data/outputs/pass1_event_chronology_v0.3.py",
+   "source_mtime": "2026-06-14T02:16:43.954537Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_event_chronology_v0.4.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 7838,
+   "sha256": "381ec9d843fbfea78cd579f32096f5c3865a26143e68ba18adf9a292a16f3d6a",
+   "source": "/mnt/user-data/outputs/pass1_event_chronology_v0.4.py",
+   "source_mtime": "2026-06-14T02:27:06.603423Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_final_chronology_index.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 1463315,
+   "sha256": "ba9cbf0e47653c9f094a65b4891728ce702c21459f27a2b7ef34e6bd4422e7d3",
+   "source": "/mnt/user-data/outputs/pass1_final_chronology_index.json",
+   "source_mtime": "2026-06-14T02:16:46.336991Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_reassessed_index.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 1597170,
+   "sha256": "89edc5507eb5b97edb50612fe293dfa235a228362bc19c74137314960e1c97f9",
+   "source": "/mnt/user-data/outputs/pass1_reassessed_index.json",
+   "source_mtime": "2026-06-14T02:27:09.447744Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass1_v2_chronology_index.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 2130486,
+   "sha256": "4007725e0bfa0a6164f773c0a53714e42a5ac5ea43de9fbe43860efec2ccc0ee",
+   "source": "/mnt/user-data/outputs/pass1_v2_chronology_index.json",
+   "source_mtime": "2026-06-14T02:14:27.579516Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass2_mutation_detection_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4038,
+   "sha256": "50eb2148ce223b7eae3c349214a0d2b549e20b23e21c588ffa80e4461d58d24f",
+   "source": "/mnt/user-data/outputs/pass2_mutation_detection_v0.1.py",
+   "source_mtime": "2026-06-14T02:30:28.388942Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass3_causal_chains_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4534,
+   "sha256": "0a06796213aba305becc55989700f1ed7f80d1527e650bee8908396abf01fef7",
+   "source": "/mnt/user-data/outputs/pass3_causal_chains_v0.1.py",
+   "source_mtime": "2026-06-14T02:33:16.474669Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass4_architecture_extraction_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 3413,
+   "sha256": "29f5e4c10db338e7daac42c9805a34e77ad272a622df8550d2cefab675c836ec",
+   "source": "/mnt/user-data/outputs/pass4_architecture_extraction_v0.1.py",
+   "source_mtime": "2026-06-14T02:41:41.046986Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass4_architecture_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 3788,
+   "sha256": "fba74c8d6248f8503207a8a84b8a45d7046e1724b099f0d99cb0f136616279b4",
+   "source": "/mnt/user-data/outputs/pass4_architecture_v0.1.py",
+   "source_mtime": "2026-06-14T02:45:54.502713Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass4_architecture_validation.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 2869,
+   "sha256": "ac6043b7fffe4f070a52861be40beffb6f28a46f135e9e9deb041badf5ed6c99",
+   "source": "/mnt/user-data/outputs/pass4_architecture_validation.json",
+   "source_mtime": "2026-06-14T02:41:55.132530Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass5_process_tree_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4669,
+   "sha256": "40ea53b0d58cd1a840af0a718cae7e78311d009d708c5f0adb20f5a3c31fe140",
+   "source": "/mnt/user-data/outputs/pass5_process_tree_v0.1.py",
+   "source_mtime": "2026-06-14T02:50:13.107641Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass6_ppp_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4461,
+   "sha256": "89d3b64b9bb8452b5c519401d93c973a9e703285814c75dfb14aadcf59d5e695",
+   "source": "/mnt/user-data/outputs/pass6_ppp_v0.1.py",
+   "source_mtime": "2026-06-14T02:53:04.213523Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass7_guardrails_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4787,
+   "sha256": "28edaebe077e093909229fee0894f6a63a54575dba1d16507c75a5a723b7f17d",
+   "source": "/mnt/user-data/outputs/pass7_guardrails_v0.1.py",
+   "source_mtime": "2026-06-14T02:55:30.372845Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass8_knowledge_spine_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4695,
+   "sha256": "1d45de6507d4237292ee2bed5c242e2201bd5f9b875c969bdba2c407520fc499",
+   "source": "/mnt/user-data/outputs/pass8_knowledge_spine_v0.1.py",
+   "source_mtime": "2026-06-14T02:58:05.257652Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/pass9_graph_v0.1.py",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 5040,
+   "sha256": "3e0a02c7ac32a78dc3be1e3d549395615764113ae9e1873b3330c0ae06351773",
+   "source": "/mnt/user-data/outputs/pass9_graph_v0.1.py",
+   "source_mtime": "2026-06-14T03:01:22.736757Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/ppp_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6338,
+   "sha256": "bdb6535c82a1f7802671876991a2038d2dfe7965ca89e2e545a46129609df0f5",
+   "source": "/mnt/user-data/outputs/ppp_v0.1.json",
+   "source_mtime": "2026-06-14T02:53:04.551497Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/process_tree_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 2707,
+   "sha256": "9cfc66a9475c41595a47e6e7250ada256d798d58cce82ae14f4c86321a418eaa",
+   "source": "/mnt/user-data/outputs/process_tree_v0.1.json",
+   "source_mtime": "2026-06-14T02:50:14.144008Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/runtime_state_v0.1.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 15903,
+   "sha256": "4ea522bc832f1621aa8de7dd49ba98d75c9c7406e677283c993cb91eaf2e1052",
+   "source": "/mnt/user-data/outputs/runtime_state_v0.1.json",
+   "source_mtime": "2026-06-14T03:02:23.802201Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/runtime_state_v0.1.yaml",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 14506,
+   "sha256": "aadfd83a35d8fae273b703fc52346808720f88118874e375c1bb6e481fa41f42",
+   "source": "/mnt/user-data/outputs/runtime_state_v0.1.yaml",
+   "source_mtime": "2026-06-14T03:02:23.849474Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/song_excellence_governance_v0.1.md",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 9150,
+   "sha256": "c77cba40e29bccd9d125cdc855162e22c354cd6af060b115867cb68f7d9d330e",
+   "source": "/mnt/user-data/outputs/song_excellence_governance_v0.1.md",
+   "source_mtime": "2026-06-13T03:28:49.061848Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/source_lineage_reconciliation_register_v0.1.md",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 8639,
+   "sha256": "158f296a0d437edb2c14bc526f175ff665f2813b55a2f81068256af5052b52ee",
+   "source": "/mnt/user-data/outputs/source_lineage_reconciliation_register_v0.1.md",
+   "source_mtime": "2026-06-13T03:51:47.069794Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_BRANCH_BRANCH_LYRIC_QUALITY_BASELINE_COP.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 157803,
+   "sha256": "d8ab08e0d54750a33f437aeb9fdd0e1d16dfd877070f7f5797b3b957e81f6f5d",
+   "source": "/mnt/user-data/outputs/substrate_BRANCH_BRANCH_LYRIC_QUALITY_BASELINE_COP.json",
+   "source_mtime": "2026-06-14T01:36:15.987822Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_CLAUDE2_TXT.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 351389,
+   "sha256": "031a0e4f64ba91eec5b12bbc78cfa765d964c3d1d358c734065fa00fdd21125b",
+   "source": "/mnt/user-data/outputs/substrate_CLAUDE2_TXT.json",
+   "source_mtime": "2026-06-14T01:36:16.166971Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_CONVOLUTED_COPY_TXT.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 68458,
+   "sha256": "93eab1483d5b356202ea8c4b0b55762b3186df083d39a66c3574502ce86410a2",
+   "source": "/mnt/user-data/outputs/substrate_CONVOLUTED_COPY_TXT.json",
+   "source_mtime": "2026-06-14T01:36:16.148728Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_DAY2_CLOSEOUT_REPORT_COPY_MD.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 46751,
+   "sha256": "578494f62579d57432bf26a9af010fcbc4f5baca97492582a0012aefec9e9e0a",
+   "source": "/mnt/user-data/outputs/substrate_DAY2_CLOSEOUT_REPORT_COPY_MD.json",
+   "source_mtime": "2026-06-14T01:36:15.967907Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 6162,
+   "sha256": "155c71fbf6a858ade098111062578470485682a80a54e1cea9fb26ba38055eb6",
+   "source": "/mnt/user-data/outputs/substrate_DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP.json",
+   "source_mtime": "2026-06-14T01:36:16.183831Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_HIDDEN_COSTS_OF_CUSTOM_GPT_USE_BY_UNTRAI.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 27287,
+   "sha256": "744be47da2ec405d07ee6163fe7cbb0547a1095fe3b1f7660c291584733d3618",
+   "source": "/mnt/user-data/outputs/substrate_HIDDEN_COSTS_OF_CUSTOM_GPT_USE_BY_UNTRAI.json",
+   "source_mtime": "2026-06-14T01:36:16.256277Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_KERNEL_MD.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4730,
+   "sha256": "e43144b665428b037377fb87170ae85882127db2c64415c9833d8818f00e4e89",
+   "source": "/mnt/user-data/outputs/substrate_KERNEL_MD.json",
+   "source_mtime": "2026-06-14T01:36:15.972813Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_MAESTRO_CUSTOM_GPT_CREATE_WINDOW.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 104370,
+   "sha256": "c0037bb7f2d3824d0dcc6ae7b21af6a8a8a51ba42c80573a5a6981bc8d55485c",
+   "source": "/mnt/user-data/outputs/substrate_MAESTRO_CUSTOM_GPT_CREATE_WINDOW.json",
+   "source_mtime": "2026-06-14T01:36:16.280521Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_MAESTRO_CUSTOM_GPT_PREVIEW_WINDOW.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 14597,
+   "sha256": "d6ce42e2c48d8d6dd0120599244f0e69cb53f858c4a93f15f509e42b3b226ba7",
+   "source": "/mnt/user-data/outputs/substrate_MAESTRO_CUSTOM_GPT_PREVIEW_WINDOW.json",
+   "source_mtime": "2026-06-14T01:36:16.289560Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_MAESTRO_DAY3_WORK_WINDOW_SCRIPT_COPY_MD.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 15881,
+   "sha256": "214b37423bab27fd12018eb77b49e250395c097740217aba06c8579474ed4e83",
+   "source": "/mnt/user-data/outputs/substrate_MAESTRO_DAY3_WORK_WINDOW_SCRIPT_COPY_MD.json",
+   "source_mtime": "2026-06-14T01:36:16.380329Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_MAESTRO_NON_LINEAR_VERSION_CHAIN.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 1999763,
+   "sha256": "e6e6422245735bec3012958fdb4a874b3b7b48977fb5df63c0c122e6802c2b72",
+   "source": "/mnt/user-data/outputs/substrate_MAESTRO_NON_LINEAR_VERSION_CHAIN.json",
+   "source_mtime": "2026-06-14T01:36:16.509959Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_MAESTRO_VERSION_CHANGELOG_MD.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 13420,
+   "sha256": "ba921764ce0bd089dfbf3a8afe8028d4036305f29ec6f1ddc47b0d06c06c1a9d",
+   "source": "/mnt/user-data/outputs/substrate_MAESTRO_VERSION_CHANGELOG_MD.json",
+   "source_mtime": "2026-06-14T01:36:16.406515Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_OPEN_QUESTION_VERIFICATION_QUERIES_V0_1_.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 41693,
+   "sha256": "646f01fa2fb2e01d0cc2b4943c5cbc08ad3d9ddb0af98f99e82e15507dd9a0fc",
+   "source": "/mnt/user-data/outputs/substrate_OPEN_QUESTION_VERIFICATION_QUERIES_V0_1_.json",
+   "source_mtime": "2026-06-14T01:36:16.423387Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_STUCK_COPY_TXT.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 424125,
+   "sha256": "2e4cbc722d7152210797388a9e96a12332982e7770988575e28cf0578de6aa3d",
+   "source": "/mnt/user-data/outputs/substrate_STUCK_COPY_TXT.json",
+   "source_mtime": "2026-06-14T01:36:16.548123Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 11936,
+   "sha256": "dee3400fe4286254ef86b0d7425da86df93f3af771f9d849128b47b3de1d383c",
+   "source": "/mnt/user-data/outputs/substrate_V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD.json",
+   "source_mtime": "2026-06-14T01:36:16.538791Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_WORKSPACE_IDENTITY_MAESTRO_V5_C_TXT.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 36815,
+   "sha256": "e107767685fcd9754c7742660857b077a47b61d2024462c53cdf72afc18369eb",
+   "source": "/mnt/user-data/outputs/substrate_WORKSPACE_IDENTITY_MAESTRO_V5_C_TXT.json",
+   "source_mtime": "2026-06-14T01:36:16.586683Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_YESTERDAY_3_2026_11_DEV_CHAT_WORKLOG_COP.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 750008,
+   "sha256": "bb50531c544bba62d6abb6e581fd319157c446dbc94003b32b313df2e3362511",
+   "source": "/mnt/user-data/outputs/substrate_YESTERDAY_3_2026_11_DEV_CHAT_WORKLOG_COP.json",
+   "source_mtime": "2026-06-14T01:36:16.052082Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_YESTERDAY_COPY_TXT.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 133989,
+   "sha256": "47079bf68cfb652aa814ab12ca84aa483a8571dcb42b6f2042df2f20c361edb1",
+   "source": "/mnt/user-data/outputs/substrate_YESTERDAY_COPY_TXT.json",
+   "source_mtime": "2026-06-14T01:36:16.116401Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_YOU_SAID_SONIC_ARCHITECT_SAID_DELIMITERS.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4284,
+   "sha256": "ff3706de2bfd1b9daa7cbffb2053942e7340f98165730422b5492052e461427c",
+   "source": "/mnt/user-data/outputs/substrate_YOU_SAID_SONIC_ARCHITECT_SAID_DELIMITERS.json",
+   "source_mtime": "2026-06-14T01:36:16.645807Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/substrate_manifest.json",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 4022,
+   "sha256": "b0c44563ac33908e7f1976dea099fc34e4de5eddfe3ad80c62fd127b01243acf",
+   "source": "/mnt/user-data/outputs/substrate_manifest.json",
+   "source_mtime": "2026-06-14T01:36:16.669146Z"
+  },
+  {
+   "category": "DERIVED_VIEWS_NONCANON (proposal-class)",
+   "path": "09_derived_views_NONCANON/who_dat_runtime_assessment_v0.1.md",
+   "role": "Claude reconstruction artifact - PROPOSAL-CLASS, defers to runtime+canon",
+   "version": "n/a",
+   "bytes": 7346,
+   "sha256": "ee4c367c84caf9903b29790fd71193b83d41d689fcc21238413181b411bdaf98",
+   "source": "/mnt/user-data/outputs/who_dat_runtime_assessment_v0.1.md",
+   "source_mtime": "2026-06-13T04:23:12.598215Z"
+  }
+ ]
+}

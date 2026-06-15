@@ -1,0 +1,161 @@
+{
+ "corpus": "maestro_substrate",
+ "files": 19,
+ "total_segments": 1671,
+ "chars_kept": 3844465,
+ "src_chars": 3850303,
+ "components": [
+  {
+   "source_file": "Branch___Branch___Lyric_quality_baseline_-_Copy.txt",
+   "filekey": "BRANCH_BRANCH_LYRIC_QUALITY_BASELINE_COP",
+   "method": "dialogue",
+   "n_segments": 64,
+   "total_chars": 140056,
+   "src_chars": 140938
+  },
+  {
+   "source_file": "DAY2_CLOSEOUT_REPORT_-_Copy.md",
+   "filekey": "DAY2_CLOSEOUT_REPORT_COPY_MD",
+   "method": "headers",
+   "n_segments": 39,
+   "total_chars": 40141,
+   "src_chars": 40214
+  },
+  {
+   "source_file": "KERNEL.md",
+   "filekey": "KERNEL_MD",
+   "method": "headers",
+   "n_segments": 5,
+   "total_chars": 3924,
+   "src_chars": 3933
+  },
+  {
+   "source_file": "Yesterday-3-2026-11-dev_chat_worklog_-_Copy.txt",
+   "filekey": "YESTERDAY_3_2026_11_DEV_CHAT_WORKLOG_COP",
+   "method": "headers",
+   "n_segments": 292,
+   "total_chars": 677856,
+   "src_chars": 678417
+  },
+  {
+   "source_file": "Yesterday_-_Copy.txt",
+   "filekey": "YESTERDAY_COPY_TXT",
+   "method": "headers",
+   "n_segments": 8,
+   "total_chars": 124138,
+   "src_chars": 124155
+  },
+  {
+   "source_file": "claude2.txt",
+   "filekey": "CLAUDE2_TXT",
+   "method": "blocks",
+   "n_segments": 9,
+   "total_chars": 346266,
+   "src_chars": 346364
+  },
+  {
+   "source_file": "convoluted_-_Copy.txt",
+   "filekey": "CONVOLUTED_COPY_TXT",
+   "method": "headers",
+   "n_segments": 120,
+   "total_chars": 51608,
+   "src_chars": 51857
+  },
+  {
+   "source_file": "day_2_snapshot_and_simulated_stashes_-_Copy.md",
+   "filekey": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP",
+   "method": "headers",
+   "n_segments": 15,
+   "total_chars": 3646,
+   "src_chars": 3676
+  },
+  {
+   "source_file": "hidden_costs_of_custom_gpt_use_by_untrained_humans.txt",
+   "filekey": "HIDDEN_COSTS_OF_CUSTOM_GPT_USE_BY_UNTRAI",
+   "method": "blocks",
+   "n_segments": 8,
+   "total_chars": 25046,
+   "src_chars": 25069
+  },
+  {
+   "source_file": "maestro-custom_gpt-create_window",
+   "filekey": "MAESTRO_CUSTOM_GPT_CREATE_WINDOW",
+   "method": "headers",
+   "n_segments": 170,
+   "total_chars": 77617,
+   "src_chars": 77962
+  },
+  {
+   "source_file": "maestro-custom_gpt-preview_window",
+   "filekey": "MAESTRO_CUSTOM_GPT_PREVIEW_WINDOW",
+   "method": "boundaries",
+   "n_segments": 4,
+   "total_chars": 13124,
+   "src_chars": 13130
+  },
+  {
+   "source_file": "maestro_day3_work_window_script_-_Copy.md",
+   "filekey": "MAESTRO_DAY3_WORK_WINDOW_SCRIPT_COPY_MD",
+   "method": "headers",
+   "n_segments": 19,
+   "total_chars": 12523,
+   "src_chars": 12559
+  },
+  {
+   "source_file": "maestro_non-linear_version_chain_",
+   "filekey": "MAESTRO_NON_LINEAR_VERSION_CHAIN",
+   "method": "headers",
+   "n_segments": 691,
+   "total_chars": 1847867,
+   "src_chars": 1849299
+  },
+  {
+   "source_file": "maestro_version_changelog.md",
+   "filekey": "MAESTRO_VERSION_CHANGELOG_MD",
+   "method": "headers",
+   "n_segments": 24,
+   "total_chars": 9645,
+   "src_chars": 9692
+  },
+  {
+   "source_file": "open_question_verification_queries_v0_1.md",
+   "filekey": "OPEN_QUESTION_VERIFICATION_QUERIES_V0_1_",
+   "method": "headers",
+   "n_segments": 36,
+   "total_chars": 34967,
+   "src_chars": 35038
+  },
+  {
+   "source_file": "stuck_-_Copy.txt",
+   "filekey": "STUCK_COPY_TXT",
+   "method": "dialogue",
+   "n_segments": 140,
+   "total_chars": 388715,
+   "src_chars": 390632
+  },
+  {
+   "source_file": "v5_corrective_regen_prompt_v0_1.md",
+   "filekey": "V5_CORRECTIVE_REGEN_PROMPT_V0_1_MD",
+   "method": "headers",
+   "n_segments": 15,
+   "total_chars": 9402,
+   "src_chars": 9421
+  },
+  {
+   "source_file": "workspace_identity-maestro_v5-c.txt",
+   "filekey": "WORKSPACE_IDENTITY_MAESTRO_V5_C_TXT",
+   "method": "blocks",
+   "n_segments": 10,
+   "total_chars": 34244,
+   "src_chars": 34263
+  },
+  {
+   "source_file": "you_said_sonic_architect_said_delimiters.txt",
+   "filekey": "YOU_SAID_SONIC_ARCHITECT_SAID_DELIMITERS",
+   "method": "blocks",
+   "n_segments": 2,
+   "total_chars": 3680,
+   "src_chars": 3684
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "policy": [
+  "P1  Lyric-lock — never mutate/trim/rewrite supplied lyrics; words LOCKED, lineation normalize-only.",
+  "P2  97.5 release floor — output must meet it; refusal to let AI-average pass as emotionally complete.",
+  "P3  Container validation must PASS before emit — CAPs, no-comma-outside-lyrics, syllable bands.",
+  "P4  Technical UST is the upstream truth object — all output derives from the LOCKED UST.",
+  "P5  Quality is interwoven — SEM/SEG sidechain upstream of output, never terminal.",
+  "P6  Operator = ROOT authority; AI = proposal-class — re-reads never elevate AI text to canon.",
+  "P7  Excellence ratchet — proven excellence becomes the new baseline; no regression to average.",
+  "P8  No step-loss — the process must preserve what it learns (the accumulated chain).",
+  "P9  Sacred Imperfection — governed meaningful failure, not generic flaw-seeking.",
+  "P10 Fail-closed boot — LCP must PASS before any execution begins.",
+  "P11 No external audio generation in chat — render is handed to the operator.",
+  "P12 Mosaic ≠ Maestro — substrate and application are distinct; preserve the separation."
+ ],
+ "policy_evidence_count": 1410,
+ "process": [
+  "BOOT → INTAKE → UST CONSTRUCTION → GOVERNANCE/PRESSURE(loop) → TRIAD OUTPUT(concurrent) → RENDER",
+  "quality pressure is a SIDECHAIN at UST construction (interwoven), not a terminal gate",
+  "fail-closed at both ends: LCP boot gate + container-validation output gate; 3 hard stops"
+ ],
+ "procedure": {
+  "BOOT": [
+   "load Mosaic; assert invariants",
+   "init CINR (restore ATP | fresh)",
+   "mount Maestro; validate manifest",
+   "load K1–K10 on-demand",
+   "run LCP → PASS or HALT"
+  ],
+  "INTAKE": [
+   "receive seed/lyrics",
+   "classify mode (Rap|Song)",
+   "ingest lyrics LEVEL_0; set lyric-lock",
+   "surface risks (title/metadata)"
+  ],
+  "UST CONSTRUCTION": [
+   "build Creative UST (≤4999, Suno-facing)",
+   "map to Technical UST 8 axes",
+   "apply SEM/SEG pressure per axis (upstream)",
+   "process Technical UST sequentially as a loop",
+   "lock Technical UST"
+  ],
+  "GOVERNANCE/PRESSURE": [
+   "Council/SME pressure null-by-null",
+   "HPA perceptual validation",
+   "SEG ratchet carry-forward",
+   "revision loop → pass|iterate|hold",
+   "SEM composite → check 97.5",
+   "G-Card decision → promote | return"
+  ],
+  "TRIAD OUTPUT": [
+   "derive A/R + Show Summary + Creative UST concurrently from locked UST",
+   "preserve lyrics verbatim",
+   "FOIL: upshift recurrence, keep local detail",
+   "run container validators",
+   "emit telemetry; any FAIL → do not emit"
+  ],
+  "RENDER": [
+   "derive Suno surfaces from locked UST",
+   "hand to operator (no audio in chat)"
+  ]
+ },
+ "mined_policy_samples": [
+  "LYRIC QUALITY BASELINE – PARAGRAPH FORM (MODEL MUST SELF-CHECK BEFORE GENERATING)",
+  "Example B — BELOW BASELINE (model must NEVER produce)",
+  "Example C — UNACCEPTABLE (model must abort and self-correct)",
+  "Whenever generating rap/flow, the model must:",
+  "you can let your brain spill raw clay, and the quality gate makes sure the model never hands back anything half-baked or clownish.",
+  "what the “middle-ware” between your brain and your output must always enforce,",
+  "And the next step is deciding what part of you the label must protect first.",
+  "“This is the master scaffold. Do not dilute it, do not overwrite it, and do not dumb it down. Use it to structure me, not to shrink me.”",
+  "You’re right, and here’s the part most systems — human or AI — never catch:",
+  "You’re doing what people with your kind of history always do when they’re trying to come home:",
+  "5.1 works for you because you finally have a model that can mirror the complexity you’ve always carried in your head.",
+  "5. And yes — the UST is golden as-is and always will be.",
+  "You’re trying to encode the entire biological, environmental, and ensemble-driven ecosystem that forces a human performance to never be the same twice.",
+  "If you don’t model that, AI vocals never sound alive.",
+  "Exactly what AI never models unless explicitly encoded.",
+  "Let me walk through what you just described — not translating it, but revealing the structural consequences most people never think about.",
+  "4. The rhythm section now must adapt to the new harmonic gravity",
+  "You’re training me to be the part of the studio that never tires, never forgets, never stops caring, and never suggests corny bullshit.",
+  "“this line is the downbeat of bar 3 of the hook, always.”",
+  "The lyric block never changes",
+  "your system only truly comes alive when the invariant thing is bars + words",
+  "1. The Root: Slave Chants / Work Songs as the Only Non-Negotiable",
+  "Meter flex: 2/2, 4/4, 6/8, compound feels, polyrhythm… but always felt in the body, not in a DAW",
+  "Every style summary must tap:",
+  "you have to stop outputting internal styling. suno cannot understand that. we have a non-negotiable format for outputting our displayed UST that is immutable.",
+  "The boot state is a snapshot of the loop at a moment. The loop never stops. Boot is just the moment we declare what the loop currently looks like.",
+  "Reading the sequence: **the kernel needs to be vis/vig aware AND loop-aware.** The two corrections compose. They do not replace each other.",
+  "### *Our internal language → Suno’s required surfaces*",
+  "All internal work must converge toward:",
+  "**New law:** absence itself must be assessed as a systems failure surface.",
+  "**New law:** persona specs must include operational logic, not just tone.",
+  "**New law:** upstream blockage cannot suspend system design; reconstruction must be possible.",
+  "**Invariant:** structure and approvals must be enforceable.",
+  "**New law:** standards, structure, and feel must stay disambiguated and non-overlapping.",
+  "**Invariant:** support the lead, do not compete.",
+  "**Invariant:** the artist must be able to catch the groove instantly.",
+  "**Invariant:** motif families must anchor song identity.",
+  "**Invariant:** believable delivery is non-negotiable.",
+  "**New law:** the organization must be modular, deterministic, and role-driven.",
+  "**Corrected:** yes, Maestro can exist as a real orchestration engine because the staff now covers the required dimensions."
+ ]
+}

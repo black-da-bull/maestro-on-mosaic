@@ -1,0 +1,525 @@
+{
+ "nodes": [
+  {
+   "id": "UST(umbrella)",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 1044
+  },
+  {
+   "id": "Suno",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 823
+  },
+  {
+   "id": "Technical UST",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 745
+  },
+  {
+   "id": "Maestro",
+   "type": "component",
+   "plane": "L0 runtime",
+   "freq": 673
+  },
+  {
+   "id": "Creative UST",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 497
+  },
+  {
+   "id": "Council/SME",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 323
+  },
+  {
+   "id": "FOIL",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 306
+  },
+  {
+   "id": "VIRAL-5",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 274
+  },
+  {
+   "id": "Show Summary",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 231
+  },
+  {
+   "id": "Validator/CAP",
+   "type": "component",
+   "plane": "L4 hard control",
+   "freq": 170
+  },
+  {
+   "id": "Sacred Imperfection",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 160
+  },
+  {
+   "id": "HPA",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 135
+  },
+  {
+   "id": "Sidechain",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 125
+  },
+  {
+   "id": "Mosaic",
+   "type": "component",
+   "plane": "L1 substrate",
+   "freq": 120
+  },
+  {
+   "id": "Triad",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 67
+  },
+  {
+   "id": "Rap/SongMode",
+   "type": "component",
+   "plane": "L0 runtime",
+   "freq": 66
+  },
+  {
+   "id": "SEM",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 57
+  },
+  {
+   "id": "monolith/megaprompt",
+   "type": "component",
+   "plane": "L0 runtime",
+   "freq": 56
+  },
+  {
+   "id": "G-Card",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 39
+  },
+  {
+   "id": "SEG",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 36
+  },
+  {
+   "id": "Song Excellence",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 31
+  },
+  {
+   "id": "ATP",
+   "type": "component",
+   "plane": "L1 substrate",
+   "freq": 18
+  },
+  {
+   "id": "A/R Persona Surface",
+   "type": "component",
+   "plane": "L3 UST pipeline",
+   "freq": 13
+  },
+  {
+   "id": "blueprint.json",
+   "type": "component",
+   "plane": "L0 runtime",
+   "freq": 9
+  },
+  {
+   "id": "CINR",
+   "type": "component",
+   "plane": "L1 substrate",
+   "freq": 8
+  },
+  {
+   "id": "Lyric Lock",
+   "type": "component",
+   "plane": "L4 hard control",
+   "freq": 8
+  },
+  {
+   "id": "FOLD",
+   "type": "component",
+   "plane": "L1 substrate",
+   "freq": 7
+  },
+  {
+   "id": "knowledge.md",
+   "type": "component",
+   "plane": "L0 runtime",
+   "freq": 7
+  },
+  {
+   "id": "Revision Loop",
+   "type": "component",
+   "plane": "L2 governance",
+   "freq": 5
+  },
+  {
+   "id": "v4.x runtime",
+   "type": "lineage",
+   "plane": "L0 runtime",
+   "freq": 0
+  },
+  {
+   "id": "v5 build",
+   "type": "lineage",
+   "plane": "-",
+   "freq": 0
+  },
+  {
+   "id": "Chimera",
+   "type": "lineage",
+   "plane": "-",
+   "freq": 0
+  },
+  {
+   "id": "SEM·12crit",
+   "type": "null",
+   "plane": "L2 governance",
+   "freq": 0
+  },
+  {
+   "id": "SEM·13crit",
+   "type": "null",
+   "plane": "L2 governance",
+   "freq": 0
+  },
+  {
+   "id": "G-Card·70",
+   "type": "null",
+   "plane": "L2 governance",
+   "freq": 0
+  },
+  {
+   "id": "G-Card·75",
+   "type": "null",
+   "plane": "L2 governance",
+   "freq": 0
+  },
+  {
+   "id": "97.5 floor",
+   "type": "control",
+   "plane": "L2 governance",
+   "freq": 0
+  },
+  {
+   "id": "LCP",
+   "type": "control",
+   "plane": "L4 hard control",
+   "freq": 0
+  },
+  {
+   "id": "Council pressure",
+   "type": "process",
+   "plane": "L2 governance",
+   "freq": 0
+  }
+ ],
+ "edges": [
+  {
+   "source": "Creative UST",
+   "target": "Technical UST",
+   "type": "runtime_flow",
+   "label": "formalized into",
+   "weight": 228
+  },
+  {
+   "source": "Technical UST",
+   "target": "Triad",
+   "type": "runtime_flow",
+   "label": "derive",
+   "weight": 0
+  },
+  {
+   "source": "Triad",
+   "target": "A/R Persona Surface",
+   "type": "runtime_flow",
+   "label": "emit",
+   "weight": 0
+  },
+  {
+   "source": "Triad",
+   "target": "Show Summary",
+   "type": "runtime_flow",
+   "label": "emit",
+   "weight": 0
+  },
+  {
+   "source": "Triad",
+   "target": "Creative UST",
+   "type": "runtime_flow",
+   "label": "emit (lyric-locked)",
+   "weight": 0
+  },
+  {
+   "source": "Technical UST",
+   "target": "Suno",
+   "type": "runtime_flow",
+   "label": "render from LOCKED UST",
+   "weight": 126
+  },
+  {
+   "source": "FOIL",
+   "target": "Technical UST",
+   "type": "runtime_flow",
+   "label": "compile / upshift recurrence",
+   "weight": 93
+  },
+  {
+   "source": "Show Summary",
+   "target": "Suno",
+   "type": "runtime_flow",
+   "label": "render-facing",
+   "weight": 154
+  },
+  {
+   "source": "A/R Persona Surface",
+   "target": "Suno",
+   "type": "runtime_flow",
+   "label": "render-facing",
+   "weight": 0
+  },
+  {
+   "source": "Maestro",
+   "target": "Mosaic",
+   "type": "dependency",
+   "label": "mounts onto",
+   "weight": 66
+  },
+  {
+   "source": "Maestro",
+   "target": "monolith/megaprompt",
+   "type": "dependency",
+   "label": "runtime prompt",
+   "weight": 28
+  },
+  {
+   "source": "Maestro",
+   "target": "knowledge.md",
+   "type": "dependency",
+   "label": "K1-K10 on-demand",
+   "weight": 0
+  },
+  {
+   "source": "Maestro",
+   "target": "blueprint.json",
+   "type": "dependency",
+   "label": "active project truth",
+   "weight": 0
+  },
+  {
+   "source": "Mosaic",
+   "target": "CINR",
+   "type": "dependency",
+   "label": "continuity register",
+   "weight": 0
+  },
+  {
+   "source": "Mosaic",
+   "target": "ATP",
+   "type": "dependency",
+   "label": "transfer pack restore",
+   "weight": 0
+  },
+  {
+   "source": "Mosaic",
+   "target": "FOLD",
+   "type": "dependency",
+   "label": "graph compile",
+   "weight": 0
+  },
+  {
+   "source": "SEM",
+   "target": "Technical UST",
+   "type": "authority",
+   "label": "sidechain pressure (upstream)",
+   "weight": 17
+  },
+  {
+   "source": "SEG",
+   "target": "Technical UST",
+   "type": "authority",
+   "label": "interwoven, upstream of output",
+   "weight": 18
+  },
+  {
+   "source": "SEG",
+   "target": "SEM",
+   "type": "authority",
+   "label": "operationalizes (rubric ⊂ governance)",
+   "weight": 0
+  },
+  {
+   "source": "SEG",
+   "target": "G-Card",
+   "type": "authority",
+   "label": "decision surface",
+   "weight": 24
+  },
+  {
+   "source": "SEG",
+   "target": "Revision Loop",
+   "type": "authority",
+   "label": "drives pass|iterate|hold",
+   "weight": 0
+  },
+  {
+   "source": "SEG",
+   "target": "HPA",
+   "type": "authority",
+   "label": "perceptual validation",
+   "weight": 0
+  },
+  {
+   "source": "SEG",
+   "target": "Song Excellence",
+   "type": "authority",
+   "label": "institutional memory (ratchet)",
+   "weight": 0
+  },
+  {
+   "source": "Council/SME",
+   "target": "Technical UST",
+   "type": "authority",
+   "label": "pressure null-by-null",
+   "weight": 22
+  },
+  {
+   "source": "Sacred Imperfection",
+   "target": "SEM",
+   "type": "authority",
+   "label": "governs meaningful failure",
+   "weight": 0
+  },
+  {
+   "source": "G-Card",
+   "target": "Triad",
+   "type": "authority",
+   "label": "gate / promote",
+   "weight": 0
+  },
+  {
+   "source": "Validator/CAP",
+   "target": "Triad",
+   "type": "authority",
+   "label": "container gate",
+   "weight": 38
+  },
+  {
+   "source": "Lyric Lock",
+   "target": "Triad",
+   "type": "authority",
+   "label": "stop-condition (words LOCKED)",
+   "weight": 0
+  },
+  {
+   "source": "97.5 floor",
+   "target": "SEG",
+   "type": "authority",
+   "label": "release threshold (operator-grounded)",
+   "weight": 0
+  },
+  {
+   "source": "LCP",
+   "target": "Maestro",
+   "type": "authority",
+   "label": "fail-closed boot gate",
+   "weight": 0
+  },
+  {
+   "source": "Creative UST",
+   "target": "Technical UST",
+   "type": "mutation",
+   "label": "Creative proves -> Technical abstracts",
+   "weight": 228
+  },
+  {
+   "source": "v4.x runtime",
+   "target": "v5 build",
+   "type": "mutation",
+   "label": "REDUCED (the loss)",
+   "weight": 0
+  },
+  {
+   "source": "Chimera",
+   "target": "v5 build",
+   "type": "mutation",
+   "label": "ideas-for",
+   "weight": 0
+  },
+  {
+   "source": "monolith/megaprompt",
+   "target": "Mosaic",
+   "type": "mutation",
+   "label": "implicit substrate NAMED (v5)",
+   "weight": 0
+  },
+  {
+   "source": "Council/SME",
+   "target": "Revision Loop",
+   "type": "causality",
+   "label": "pressure -> revision",
+   "weight": 0
+  },
+  {
+   "source": "Revision Loop",
+   "target": "97.5 floor",
+   "type": "causality",
+   "label": "iterate until threshold",
+   "weight": 0
+  },
+  {
+   "source": "SEM·12crit",
+   "target": "SEM·13crit",
+   "type": "contradiction",
+   "label": "criterion count null (Memory Activation axis)",
+   "weight": 0
+  },
+  {
+   "source": "G-Card·70",
+   "target": "G-Card·75",
+   "type": "contradiction",
+   "label": "sub-gate threshold null",
+   "weight": 0
+  },
+  {
+   "source": "97.5 floor",
+   "target": "G-Card",
+   "type": "contradiction",
+   "label": "RESOLVED: not rivals (threshold vs decision)",
+   "weight": 0
+  }
+ ],
+ "edge_types": [
+  "dependency",
+  "authority",
+  "causality",
+  "mutation",
+  "contradiction",
+  "runtime_flow"
+ ],
+ "stats": {
+  "nodes": 39,
+  "edges": 39
+ }
+}
