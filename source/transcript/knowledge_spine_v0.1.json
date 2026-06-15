@@ -1,0 +1,101 @@
+{
+ "knowledge_spine": [
+  {
+   "heuristic": "H1 Interwoven quality (sidechain, not terminal gate)",
+   "why": "shape the artifact while it's still malleable",
+   "when": "quality is judgable mid-build",
+   "when_not": "signal exists only post-render",
+   "prevents": "late rejection / validates-but-doesn't-sing"
+  },
+  {
+   "heuristic": "H2 Lock the upstream truth object before deriving outputs",
+   "why": "one locked source keeps surfaces consistent",
+   "when": "multiple outputs must agree (triad)",
+   "when_not": "single-output tasks",
+   "prevents": "surface divergence / output ≠ intent"
+  },
+  {
+   "heuristic": "H3 Creative-first, then formalize",
+   "why": "Creative UST proves it works before Technical UST abstracts it",
+   "when": "building a spec from creative intent",
+   "when_not": "structure already fixed",
+   "prevents": "abstract governance with no grounding"
+  },
+  {
+   "heuristic": "H4 Promotion surfaces carry the global burden",
+   "why": "lift recurring style/persona up so the working sheet stays local",
+   "when": "a working surface is overloaded with global explanation",
+   "when_not": "no recurrence to lift",
+   "prevents": "working artifact bloats / loses local control"
+  },
+  {
+   "heuristic": "H5 Upshift recurrence, keep local detail granular (FOIL)",
+   "why": "shared recurrence belongs one scope up; unique detail stays put",
+   "when": "duplicated terms/structures at the edges",
+   "when_not": "recurrence is coincidental not semantic",
+   "prevents": "duplication-bloat OR over-flattening of detail"
+  },
+  {
+   "heuristic": "H6 Excellence ratchet — yesterday's best is today's floor",
+   "why": "institutional memory of excellence blocks regression",
+   "when": "iterative work with a quality standard",
+   "when_not": "deliberately rough divergent drafts (gate comes after)",
+   "prevents": "quality drift / regression to the mean"
+  },
+  {
+   "heuristic": "H7 (end state) − (root input) = work; read raw as evidence",
+   "why": "the work is the delta, the middle is the value",
+   "when": "assessing/reconstructing a dev session",
+   "when_not": "single-turn, non-evolving tasks",
+   "prevents": "summarizing artifacts and missing the work"
+  },
+  {
+   "heuristic": "H8 Compile around mutations, not turns; keep the ugly parts",
+   "why": "mutations capture what changed; corrections are causal evidence",
+   "when": "folding an append-only log into architecture",
+   "when_not": "turns are atomic and non-evolving",
+   "prevents": "losing the 'why' / treating provisional as final"
+  },
+  {
+   "heuristic": "H9 Runtime stays primary; artifacts are derived views",
+   "why": "the runtime carries the unformalizable flow; specs are projections",
+   "when": "preserving a system whose value is partly tacit",
+   "when_not": "system is fully specifiable",
+   "prevents": "the reduction loss (flatten drops flow + corrections)"
+  },
+  {
+   "heuristic": "H10 Container-PASS ≠ quality — gate the flow separately",
+   "why": "format validation can't see craft",
+   "when": "any validated output where craft matters",
+   "when_not": "output is purely structural",
+   "prevents": "green-lighting flow-broken-but-valid output"
+  },
+  {
+   "heuristic": "H11 Spill raw clay in, uncompromising gate out",
+   "why": "separating freedom (input) from enforcement (output) lets divergence flow",
+   "when": "creative generation with a quality standard",
+   "when_not": "input must be constrained (safety-critical)",
+   "prevents": "creative timidity OR quality compromise"
+  },
+  {
+   "heuristic": "H12 Sacred Imperfection — govern meaningful failure",
+   "why": "perfect-but-dead fails the emotional bar; imperfection carries aliveness",
+   "when": "emotional/artistic output",
+   "when_not": "precision-critical output",
+   "prevents": "sterile, average-feeling output that passes format"
+  }
+ ],
+ "grounding_count": 25,
+ "mined_samples": [
+  "Because younger brains prefer:",
+  "If two personas target the same bar/slot with incompatible ops, prefer RoadMap priority: time > theory > voice > fx > mix.",
+  "4.3.3. Checkpoint: The final keeper is selected and logged. The effective micro-patch is documented as a new heuristic.",
+  "* The final keeper is selected and logged. The effective micro-patch is documented as a new heuristic.",
+  "**Promotion gate:** Heuristic only, never algorithmic fact, after controlled observation",
+  "(c) Promotion as heuristic (not algorithmic fact): has any evidence accumulated?",
+  "Return: observation evidence if exists, heuristic candidate if formed,",
+  "likely_conflicts_with: \"Prior heuristic or stylebook work that relies on expert prose without address-level evidence.\"",
+  "proposed_resolution: \"Use prior heuristic work as source material only after conversion into bound work items.\"",
+  "- \"Where multiple lawful owners are technically possible, prefer the owner that minimizes repeated drift while preserving specificity.\""
+ ]
+}

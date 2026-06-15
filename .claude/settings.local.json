@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"---EXIT:$?---\")",
+      "Read(//mnt/**)",
+      "Bash(mountpoint /mnt/d)",
+      "Read(///wsl.localhost/ubuntu//**)",
+      "PowerShell(wsl -d ubuntu -- bash -lc \"python3 /home/wsl/projects/maestro_manifest.py /mnt/d/Maestro --out /home/wsl/projects/_manifest_out --skip-hash-over-mb 100\")"
+    ]
+  }
+}

@@ -1,0 +1,438 @@
+{
+ "components": [
+  {
+   "name": "UST(umbrella)",
+   "freq": 1044,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "Suno",
+   "freq": 823,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "Technical UST",
+   "freq": 745,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "Maestro",
+   "freq": 673,
+   "plane": "L0 runtime"
+  },
+  {
+   "name": "Creative UST",
+   "freq": 497,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "Council/SME",
+   "freq": 323,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "FOIL",
+   "freq": 306,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "VIRAL-5",
+   "freq": 274,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "Show Summary",
+   "freq": 231,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "Validator/CAP",
+   "freq": 170,
+   "plane": "L4 hard control"
+  },
+  {
+   "name": "Sacred Imperfection",
+   "freq": 160,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "HPA",
+   "freq": 135,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "Sidechain",
+   "freq": 125,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "Mosaic",
+   "freq": 120,
+   "plane": "L1 substrate"
+  },
+  {
+   "name": "Triad",
+   "freq": 67,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "Rap/SongMode",
+   "freq": 66,
+   "plane": "L0 runtime"
+  },
+  {
+   "name": "SEM",
+   "freq": 57,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "monolith/megaprompt",
+   "freq": 56,
+   "plane": "L0 runtime"
+  },
+  {
+   "name": "G-Card",
+   "freq": 39,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "SEG",
+   "freq": 36,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "Song Excellence",
+   "freq": 31,
+   "plane": "L2 governance"
+  },
+  {
+   "name": "ATP",
+   "freq": 18,
+   "plane": "L1 substrate"
+  },
+  {
+   "name": "A/R Persona Surface",
+   "freq": 13,
+   "plane": "L3 UST pipeline"
+  },
+  {
+   "name": "blueprint.json",
+   "freq": 9,
+   "plane": "L0 runtime"
+  },
+  {
+   "name": "CINR",
+   "freq": 8,
+   "plane": "L1 substrate"
+  },
+  {
+   "name": "Lyric Lock",
+   "freq": 8,
+   "plane": "L4 hard control"
+  },
+  {
+   "name": "FOLD",
+   "freq": 7,
+   "plane": "L1 substrate"
+  },
+  {
+   "name": "knowledge.md",
+   "freq": 7,
+   "plane": "L0 runtime"
+  },
+  {
+   "name": "Revision Loop",
+   "freq": 5,
+   "plane": "L2 governance"
+  }
+ ],
+ "interconnects": [
+  {
+   "a": "Technical UST",
+   "b": "UST(umbrella)",
+   "weight": 734
+  },
+  {
+   "a": "Creative UST",
+   "b": "UST(umbrella)",
+   "weight": 374
+  },
+  {
+   "a": "Creative UST",
+   "b": "Technical UST",
+   "weight": 228
+  },
+  {
+   "a": "Suno",
+   "b": "UST(umbrella)",
+   "weight": 200
+  },
+  {
+   "a": "Show Summary",
+   "b": "Suno",
+   "weight": 154
+  },
+  {
+   "a": "Suno",
+   "b": "Technical UST",
+   "weight": 126
+  },
+  {
+   "a": "Creative UST",
+   "b": "Suno",
+   "weight": 125
+  },
+  {
+   "a": "Show Summary",
+   "b": "UST(umbrella)",
+   "weight": 103
+  },
+  {
+   "a": "FOIL",
+   "b": "UST(umbrella)",
+   "weight": 100
+  },
+  {
+   "a": "FOIL",
+   "b": "Technical UST",
+   "weight": 93
+  },
+  {
+   "a": "Maestro",
+   "b": "UST(umbrella)",
+   "weight": 84
+  },
+  {
+   "a": "Creative UST",
+   "b": "Show Summary",
+   "weight": 75
+  },
+  {
+   "a": "Maestro",
+   "b": "Suno",
+   "weight": 67
+  },
+  {
+   "a": "Maestro",
+   "b": "Mosaic",
+   "weight": 66
+  },
+  {
+   "a": "Council/SME",
+   "b": "Suno",
+   "weight": 61
+  },
+  {
+   "a": "Show Summary",
+   "b": "Technical UST",
+   "weight": 58
+  },
+  {
+   "a": "Maestro",
+   "b": "Technical UST",
+   "weight": 54
+  },
+  {
+   "a": "HPA",
+   "b": "Suno",
+   "weight": 44
+  },
+  {
+   "a": "Creative UST",
+   "b": "Maestro",
+   "weight": 41
+  },
+  {
+   "a": "Council/SME",
+   "b": "UST(umbrella)",
+   "weight": 40
+  },
+  {
+   "a": "Creative UST",
+   "b": "FOIL",
+   "weight": 40
+  },
+  {
+   "a": "Triad",
+   "b": "Validator/CAP",
+   "weight": 38
+  },
+  {
+   "a": "FOIL",
+   "b": "Suno",
+   "weight": 38
+  },
+  {
+   "a": "Council/SME",
+   "b": "Maestro",
+   "weight": 37
+  },
+  {
+   "a": "HPA",
+   "b": "VIRAL-5",
+   "weight": 36
+  },
+  {
+   "a": "Suno",
+   "b": "VIRAL-5",
+   "weight": 36
+  },
+  {
+   "a": "Council/SME",
+   "b": "Sacred Imperfection",
+   "weight": 34
+  },
+  {
+   "a": "Suno",
+   "b": "Validator/CAP",
+   "weight": 33
+  },
+  {
+   "a": "Council/SME",
+   "b": "VIRAL-5",
+   "weight": 33
+  },
+  {
+   "a": "Maestro",
+   "b": "Validator/CAP",
+   "weight": 29
+  },
+  {
+   "a": "FOIL",
+   "b": "Show Summary",
+   "weight": 29
+  },
+  {
+   "a": "Maestro",
+   "b": "monolith/megaprompt",
+   "weight": 28
+  },
+  {
+   "a": "Show Summary",
+   "b": "VIRAL-5",
+   "weight": 28
+  },
+  {
+   "a": "Mosaic",
+   "b": "UST(umbrella)",
+   "weight": 27
+  },
+  {
+   "a": "Maestro",
+   "b": "Show Summary",
+   "weight": 26
+  },
+  {
+   "a": "G-Card",
+   "b": "SEG",
+   "weight": 24
+  },
+  {
+   "a": "SEM",
+   "b": "UST(umbrella)",
+   "weight": 23
+  },
+  {
+   "a": "Council/SME",
+   "b": "Validator/CAP",
+   "weight": 23
+  },
+  {
+   "a": "Maestro",
+   "b": "Sidechain",
+   "weight": 23
+  },
+  {
+   "a": "Council/SME",
+   "b": "Technical UST",
+   "weight": 22
+  },
+  {
+   "a": "UST(umbrella)",
+   "b": "Validator/CAP",
+   "weight": 21
+  },
+  {
+   "a": "Maestro",
+   "b": "Triad",
+   "weight": 21
+  },
+  {
+   "a": "Sacred Imperfection",
+   "b": "Suno",
+   "weight": 21
+  },
+  {
+   "a": "Song Excellence",
+   "b": "UST(umbrella)",
+   "weight": 19
+  },
+  {
+   "a": "Mosaic",
+   "b": "Technical UST",
+   "weight": 19
+  },
+  {
+   "a": "Maestro",
+   "b": "Sacred Imperfection",
+   "weight": 19
+  },
+  {
+   "a": "SEG",
+   "b": "UST(umbrella)",
+   "weight": 19
+  },
+  {
+   "a": "Sacred Imperfection",
+   "b": "VIRAL-5",
+   "weight": 19
+  },
+  {
+   "a": "HPA",
+   "b": "Show Summary",
+   "weight": 18
+  },
+  {
+   "a": "SEG",
+   "b": "Technical UST",
+   "weight": 18
+  },
+  {
+   "a": "Rap/SongMode",
+   "b": "UST(umbrella)",
+   "weight": 18
+  },
+  {
+   "a": "SEM",
+   "b": "Technical UST",
+   "weight": 17
+  },
+  {
+   "a": "HPA",
+   "b": "Sacred Imperfection",
+   "weight": 17
+  },
+  {
+   "a": "Triad",
+   "b": "UST(umbrella)",
+   "weight": 16
+  },
+  {
+   "a": "G-Card",
+   "b": "UST(umbrella)",
+   "weight": 15
+  },
+  {
+   "a": "Sacred Imperfection",
+   "b": "Validator/CAP",
+   "weight": 15
+  }
+ ],
+ "planes": [
+  "L0 runtime",
+  "L1 substrate",
+  "L2 governance",
+  "L3 UST pipeline",
+  "L4 hard control"
+ ]
+}

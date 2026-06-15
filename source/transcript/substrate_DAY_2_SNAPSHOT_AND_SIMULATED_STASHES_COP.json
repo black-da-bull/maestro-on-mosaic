@@ -1,0 +1,115 @@
+{
+ "source_file": "day_2_snapshot_and_simulated_stashes_-_Copy.md",
+ "filekey": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP",
+ "method": "headers",
+ "n_segments": 15,
+ "total_chars": 3646,
+ "src_chars": 3676,
+ "segments": [
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0001",
+   "role": "doc_section",
+   "chars": 38,
+   "sha8": "2d039f13",
+   "text": "# Day 2 Snapshot and Simulated Stashes"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0002",
+   "role": "doc_section",
+   "chars": 171,
+   "sha8": "55392f84",
+   "text": "## Snapshot Purpose\nThis document records the Day 2 closeout state and a simulated stash view for Day 2 and Day 1 so Day 3 can start from a clean, explicit recovery point."
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0003",
+   "role": "doc_section",
+   "chars": 17,
+   "sha8": "06645b47",
+   "text": "## Day 2 Snapshot"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0004",
+   "role": "doc_section",
+   "chars": 68,
+   "sha8": "db048d65",
+   "text": "### Closeout verdict\nDAY_2_COMPLETE_WITH_REEMITTED_AUTHORITATIVE_SET"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0005",
+   "role": "doc_section",
+   "chars": 231,
+   "sha8": "00b04044",
+   "text": "### Authoritative carry-forward set\n- controller_contract.yaml\n- phase_contract.yaml\n- artifact_contract.yaml\n- artifact_taxonomy.md\n- foil_promotion_contract.yaml\n- round_robin_notes_template.yaml\n- creative_ust_canonical_shell.md"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0006",
+   "role": "doc_section",
+   "chars": 55,
+   "sha8": "bf8e8e64",
+   "text": "### Explicit exclusion\n- controller_lockout_policy.yaml"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0007",
+   "role": "doc_section",
+   "chars": 714,
+   "sha8": "2688678a",
+   "text": "### Core Day 2 substrate laws\n- Technical UST is the sole canonical source-of-truth middleware.\n- Creative UST is a derivative downstream shell.\n- Show Summary is a derivative style surface.\n- The assistant acts as a non-creative container-controller.\n- SMEs own musical and creative content decisions.\n- Nulls are signal and may not be silently filled.\n- Sequential zero-skip axis completion is required before deliberation.\n- Round-robin argumentative review is mandatory and produces first-class artifacts.\n- Definitive technical.ust must exist before reverse compilation.\n- Promotion and deduplication follow FOIL discipline and must be ledgered.\n- Frozen surface artifacts precede final Suno prompt packaging."
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0008",
+   "role": "doc_section",
+   "chars": 253,
+   "sha8": "1d5c9528",
+   "text": "### Frozen phase order\n1. sequential axis completion\n2. draft.technical.ust freeze\n3. round-robin deliberation\n4. definitive technical.ust lock\n5. reverse promotion / deduplication\n6. concurrent derivative surface drafting\n7. surface freeze\n8. packaging"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0009",
+   "role": "doc_section",
+   "chars": 316,
+   "sha8": "af514688",
+   "text": "### Creative shell law carried forward\n- Section header uses: `[Section Title | X bars | performance notes | production cues]`\n- Section header is on its own line.\n- First lyric row is on the next line.\n- `(X) bars` is forbidden.\n- Lyric/adlib/sfx stay bound as one composite row.\n- Blank-line spacing is structural."
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0010",
+   "role": "doc_section",
+   "chars": 23,
+   "sha8": "d492d541",
+   "text": "## Simulated Stash View"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0011",
+   "role": "doc_section",
+   "chars": 537,
+   "sha8": "0c8da454",
+   "text": "### stash@{0}: day2_closeout_authoritative_bundle\n**Type:** carry-forward stash\n\n**Contains:**\n- controller_contract.yaml\n- phase_contract.yaml\n- artifact_contract.yaml\n- artifact_taxonomy.md\n- foil_promotion_contract.yaml\n- round_robin_notes_template.yaml\n- creative_ust_canonical_shell.md\n- Day 2 closeout verdict\n- exclusion of controller_lockout_policy.yaml\n\n**Why it exists:**\nTo preserve the exact Day 2 authoritative substrate before Day 3 migration work begins.\n\n**Apply semantics:**\nUse as the immediate startup stash for Day 3."
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0012",
+   "role": "doc_section",
+   "chars": 621,
+   "sha8": "1236c4e1",
+   "text": "### stash@{1}: day1_retrospective_semantic_overlay\n**Type:** retrospective semantic stash\n\n**Contains:**\n- Technical UST as dense parent middleware\n- Creative UST as lossy derivative optimized for Suno prompt character economy\n- Null-to-fill argumentative reasoning as the real engine\n- Persona/staff framing as bounded role ownership rather than decorative flavor\n\n**Why it exists:**\nTo preserve the semantic corrections from Day 1 that govern how Day 2 and later work must be interpreted.\n\n**Apply semantics:**\nUse as a semantic overlay beneath the Day 2 authoritative bundle, not as a replacement for the Day 2 ledger."
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0013",
+   "role": "doc_section",
+   "chars": 227,
+   "sha8": "12daabcf",
+   "text": "## Simulated Stash Application Order\n1. Base continuation root\n2. Apply `stash@{1}` day1_retrospective_semantic_overlay\n3. Apply `stash@{0}` day2_closeout_authoritative_bundle\n4. Begin Day 3 only from the resulting merged state"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0014",
+   "role": "doc_section",
+   "chars": 208,
+   "sha8": "8f624ae2",
+   "text": "## Startup Rule\nDay 3 must start from:\n- Day 1 semantic corrections preserved\n- Day 2 authoritative artifact bundle locked\n- anomaly artifacts excluded\n- no reopening of Day 2 canon unless explicitly directed"
+  },
+  {
+   "id": "DAY_2_SNAPSHOT_AND_SIMULATED_STASHES_COP:S0015",
+   "role": "doc_section",
+   "chars": 167,
+   "sha8": "55d456a0",
+   "text": "## Operator Note\nTreat this document as a recovery-oriented snapshot and simulated stash record, not as a replacement for the underlying authoritative artifact bodies."
+  }
+ ]
+}

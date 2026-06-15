@@ -1,0 +1,323 @@
+maestro_mosaic_runtime_state:
+  meta:
+    version: v0.1
+    compiled: '2026-06-14'
+    method: Transcript-to-Architecture Compiler — 10 passes
+    authority: DERIVED VIEW (proposal-class). The running GPT + accumulated chain remain primary; this
+      serializes structure, not flow.
+    provenance:
+      corpus: 30-file substrate cross-section
+      events: 13098
+      mutations: 5861
+      causal_arcs: 1059
+      coverage: 100% (no text dropped)
+  the_boundary:
+    _note: the load-bearing architectural fact
+    formalizable: container — order, CAPs, lyric-lock, syllable bands, no-comma → CODE (Pass 4 L4, thinnest
+      plane)
+    unformalizable: 'flow / craft / soul → lives in the accumulated runtime; cannot be saved as a rule
+      (proven by v5-b: container-PASS, flow-broken)'
+    rule: artifacts are derived views; never summarize the runtime into specs; no-drop/no-revert without
+      logged supersession
+  boot:
+    sequence:
+    - load Mosaic substrate
+    - validate invariants
+    - init CINR (restore ATP | fresh)
+    - mount Maestro
+    - validate manifest
+    - load K1–K10 on-demand
+    - run LCP
+    gate: LCP must PASS — all load packets valid, version-matched, blocker-free, externally checkable
+    resurrection_test:
+    - 1. explain Creative UST vs Technical UST
+    - 2. explain why dev sessions are evolutionary substrate
+    - 3. generate one valid Suno-ready Creative UST from a human seed
+    - 4. identify one open null and defend why it stays unresolved
+    - 5. explain 'Your Vision. Our Mission.' with Lyrics Lock
+  architecture:
+    planes:
+    - L0 runtime
+    - L1 substrate
+    - L2 governance
+    - L3 UST pipeline
+    - L4 hard control
+    components:
+    - name: UST(umbrella)
+      plane: L3 UST pipeline
+      freq: 1044
+    - name: Suno
+      plane: L3 UST pipeline
+      freq: 823
+    - name: Technical UST
+      plane: L3 UST pipeline
+      freq: 745
+    - name: Maestro
+      plane: L0 runtime
+      freq: 673
+    - name: Creative UST
+      plane: L3 UST pipeline
+      freq: 497
+    - name: Council/SME
+      plane: L2 governance
+      freq: 323
+    - name: FOIL
+      plane: L3 UST pipeline
+      freq: 306
+    - name: VIRAL-5
+      plane: L2 governance
+      freq: 274
+    - name: Show Summary
+      plane: L3 UST pipeline
+      freq: 231
+    - name: Validator/CAP
+      plane: L4 hard control
+      freq: 170
+    - name: Sacred Imperfection
+      plane: L2 governance
+      freq: 160
+    - name: HPA
+      plane: L2 governance
+      freq: 135
+    - name: Sidechain
+      plane: L2 governance
+      freq: 125
+    - name: Mosaic
+      plane: L1 substrate
+      freq: 120
+    - name: Triad
+      plane: L3 UST pipeline
+      freq: 67
+    - name: Rap/SongMode
+      plane: L0 runtime
+      freq: 66
+    - name: SEM
+      plane: L2 governance
+      freq: 57
+    - name: monolith/megaprompt
+      plane: L0 runtime
+      freq: 56
+    - name: G-Card
+      plane: L2 governance
+      freq: 39
+    - name: SEG
+      plane: L2 governance
+      freq: 36
+    - name: Song Excellence
+      plane: L2 governance
+      freq: 31
+    - name: ATP
+      plane: L1 substrate
+      freq: 18
+    - name: A/R Persona Surface
+      plane: L3 UST pipeline
+      freq: 13
+    - name: blueprint.json
+      plane: L0 runtime
+      freq: 9
+    - name: CINR
+      plane: L1 substrate
+      freq: 8
+    - name: Lyric Lock
+      plane: L4 hard control
+      freq: 8
+    - name: FOLD
+      plane: L1 substrate
+      freq: 7
+    - name: knowledge.md
+      plane: L0 runtime
+      freq: 7
+    - name: Revision Loop
+      plane: L2 governance
+      freq: 5
+  process:
+    spine: BOOT → INTAKE → UST CONSTRUCTION → GOVERNANCE/PRESSURE(loop) → TRIAD OUTPUT(concurrent) → RENDER
+    interwoven: SEM/SEG sidechain at UST construction — quality pressures DURING build, not terminal
+    fail_closed:
+    - LCP boot gate
+    - container-validation output gate
+    - 3 hard stops (lyric-lock, container-fail, no-audio-in-chat)
+    control_flow_density:
+      gate: 1222
+      branch: 819
+      stop: 783
+      convergence: 959
+      phase_order: 1421
+    procedure:
+      BOOT:
+      - load Mosaic; assert invariants
+      - init CINR (restore ATP | fresh)
+      - mount Maestro; validate manifest
+      - load K1–K10 on-demand
+      - run LCP → PASS or HALT
+      INTAKE:
+      - receive seed/lyrics
+      - classify mode (Rap|Song)
+      - ingest lyrics LEVEL_0; set lyric-lock
+      - surface risks (title/metadata)
+      UST CONSTRUCTION:
+      - build Creative UST (≤4999, Suno-facing)
+      - map to Technical UST 8 axes
+      - apply SEM/SEG pressure per axis (upstream)
+      - process Technical UST sequentially as a loop
+      - lock Technical UST
+      GOVERNANCE/PRESSURE:
+      - Council/SME pressure null-by-null
+      - HPA perceptual validation
+      - SEG ratchet carry-forward
+      - revision loop → pass|iterate|hold
+      - SEM composite → check 97.5
+      - G-Card decision → promote | return
+      TRIAD OUTPUT:
+      - derive A/R + Show Summary + Creative UST concurrently from locked UST
+      - preserve lyrics verbatim
+      - 'FOIL: upshift recurrence, keep local detail'
+      - run container validators
+      - emit telemetry; any FAIL → do not emit
+      RENDER:
+      - derive Suno surfaces from locked UST
+      - hand to operator (no audio in chat)
+  policy:
+  - P1  Lyric-lock — never mutate/trim/rewrite supplied lyrics; words LOCKED, lineation normalize-only.
+  - P2  97.5 release floor — output must meet it; refusal to let AI-average pass as emotionally complete.
+  - P3  Container validation must PASS before emit — CAPs, no-comma-outside-lyrics, syllable bands.
+  - P4  Technical UST is the upstream truth object — all output derives from the LOCKED UST.
+  - P5  Quality is interwoven — SEM/SEG sidechain upstream of output, never terminal.
+  - P6  Operator = ROOT authority; AI = proposal-class — re-reads never elevate AI text to canon.
+  - P7  Excellence ratchet — proven excellence becomes the new baseline; no regression to average.
+  - P8  No step-loss — the process must preserve what it learns (the accumulated chain).
+  - P9  Sacred Imperfection — governed meaningful failure, not generic flaw-seeking.
+  - P10 Fail-closed boot — LCP must PASS before any execution begins.
+  - P11 No external audio generation in chat — render is handed to the operator.
+  - P12 Mosaic ≠ Maestro — substrate and application are distinct; preserve the separation.
+  guardrails:
+    failure_prevention:
+    - FP1 Runtime stays primary — emit derived views only; never summarize the accumulated chain into
+      clean specs (prevents the reduction loss).
+    - FP2 Container-PASS ≠ quality — never green-light on container validation alone; HPA / 97.5 / somatic
+      gates must also clear (prevents validated-but-flow-broken output).
+    - FP3 No skeleton files — every classification carries its instance + evidence (prevents placeholder
+      collapse).
+    - FP4 Lyric-lock at intake, before any generation (prevents lyric mutation downstream).
+    - FP5 Process Technical UST as a loop, not a turn-based shortcut (prevents shallow/premature resolution).
+    - FP6 Preserve the ugly parts — corrections, frustration, wrong branches are causal evidence (prevents
+      loss of the 'why').
+    - FP7 No-drop / no-revert — a derived artifact may not drop a source element or revert a locked value
+      without logged supersession (prevents the 97.5→70 loss).
+    allowed_creativity:
+    - AC1 Inside the LOCKED Technical UST the render is free — 'enough structure to create freely without
+      becoming generic.'
+    - AC2 Show Summary & A/R Persona carry the global explanatory/style burden, freeing Creative UST to
+      be a producer's session sheet.
+    - AC3 Sacred Imperfection — governed, meaningful imperfection is allowed and wanted, not sterile perfection.
+    - AC4 Voice, persona, and stylistic variation within the 8 axes are open creative space.
+    forbidden_collapse:
+    - FC1 Reduction — flattening the chain into tidy specs that drop depth + operator corrections.
+    - FC2 Skeletonization — classification with no instance; placeholders ('Full system prompt goes here').
+    - FC3 Flow-loss — mechanical stamping (e.g. (mm)+sfx every line) that violates the song's own restraint.
+    - FC4 Phantom commitment — elevating AI's prior text to canon; treating mid-stream as final.
+    - FC5 Mythologizing — treating documents as an executing runtime substrate (over-claiming).
+    - FC6 Premature finalization — locking before the middle (the work) is done.
+    - FC7 Lyric mutation — trimming/rewriting supplied lyrics for character economy.
+    - FC8 Collapsing distinctions — Maestro→Mosaic, SEM→SEG, Creative UST→Technical UST, Technical UST
+      as output.
+    escalation_triggers:
+    - ET1 Container validation FAIL → do not emit; return to revision.
+    - ET2 Composite below 97.5 → iterate; do not release.
+    - ET3 Contradiction surfaced → park to register; never silent-merge.
+    - ET4 Blocked doc / missing evidence → halt; request from operator; do not fabricate.
+    - ET5 Drift detected (mode / canon / lyric) → revert to canon.
+    - ET6 Operator correction → apply retroactively with provenance; supersede AI paraphrase.
+  knowledge_spine:
+  - heuristic: H1 Interwoven quality (sidechain, not terminal gate)
+    why: shape the artifact while it's still malleable
+    when: quality is judgable mid-build
+    when_not: signal exists only post-render
+    prevents: late rejection / validates-but-doesn't-sing
+  - heuristic: H2 Lock the upstream truth object before deriving outputs
+    why: one locked source keeps surfaces consistent
+    when: multiple outputs must agree (triad)
+    when_not: single-output tasks
+    prevents: surface divergence / output ≠ intent
+  - heuristic: H3 Creative-first, then formalize
+    why: Creative UST proves it works before Technical UST abstracts it
+    when: building a spec from creative intent
+    when_not: structure already fixed
+    prevents: abstract governance with no grounding
+  - heuristic: H4 Promotion surfaces carry the global burden
+    why: lift recurring style/persona up so the working sheet stays local
+    when: a working surface is overloaded with global explanation
+    when_not: no recurrence to lift
+    prevents: working artifact bloats / loses local control
+  - heuristic: H5 Upshift recurrence, keep local detail granular (FOIL)
+    why: shared recurrence belongs one scope up; unique detail stays put
+    when: duplicated terms/structures at the edges
+    when_not: recurrence is coincidental not semantic
+    prevents: duplication-bloat OR over-flattening of detail
+  - heuristic: H6 Excellence ratchet — yesterday's best is today's floor
+    why: institutional memory of excellence blocks regression
+    when: iterative work with a quality standard
+    when_not: deliberately rough divergent drafts (gate comes after)
+    prevents: quality drift / regression to the mean
+  - heuristic: H7 (end state) − (root input) = work; read raw as evidence
+    why: the work is the delta, the middle is the value
+    when: assessing/reconstructing a dev session
+    when_not: single-turn, non-evolving tasks
+    prevents: summarizing artifacts and missing the work
+  - heuristic: H8 Compile around mutations, not turns; keep the ugly parts
+    why: mutations capture what changed; corrections are causal evidence
+    when: folding an append-only log into architecture
+    when_not: turns are atomic and non-evolving
+    prevents: losing the 'why' / treating provisional as final
+  - heuristic: H9 Runtime stays primary; artifacts are derived views
+    why: the runtime carries the unformalizable flow; specs are projections
+    when: preserving a system whose value is partly tacit
+    when_not: system is fully specifiable
+    prevents: the reduction loss (flatten drops flow + corrections)
+  - heuristic: H10 Container-PASS ≠ quality — gate the flow separately
+    why: format validation can't see craft
+    when: any validated output where craft matters
+    when_not: output is purely structural
+    prevents: green-lighting flow-broken-but-valid output
+  - heuristic: H11 Spill raw clay in, uncompromising gate out
+    why: separating freedom (input) from enforcement (output) lets divergence flow
+    when: creative generation with a quality standard
+    when_not: input must be constrained (safety-critical)
+    prevents: creative timidity OR quality compromise
+  - heuristic: H12 Sacred Imperfection — govern meaningful failure
+    why: perfect-but-dead fails the emotional bar; imperfection carries aliveness
+    when: emotional/artistic output
+    when_not: precision-critical output
+    prevents: sterile, average-feeling output that passes format
+  graph:
+    nodes: 39
+    edges: 39
+    edge_types:
+    - dependency
+    - authority
+    - causality
+    - mutation
+    - contradiction
+    - runtime_flow
+    ref: graph_v0.1.json
+  open_nulls:
+  - G-Card sub-gate thresholds (70 vs 75)
+  - SEM criterion count (12 vs 13 — Memory Activation axis is a later addition)
+  - PERF vs PER axis naming
+  - v5-b 'failed six-file patch' — runtime failure vs six-file-split fidelity
+  - whether v4.5.5 places flow correctly (the v4.5.5-vs-v5-b A/B not yet run)
+  pipeline:
+    pass_1_event_chronology: 13,098 events, 30 files, 100% coverage; adaptive segmentation (dialogue/session/document/structured_yaml)
+    pass_2_mutation_detection: 5,861 mutations / 10 categories (workflow 1995 · authority 1922 · policy
+      1438 · boundary 1354 ...)
+    pass_3_causal_chains: 1,059 trouble→resolution arcs; lifecycle formalize-dominant (1795), root_cause-sparse
+      (184)
+    pass_4_architecture: 29 components, 56 interconnects, 5 planes; UST pipeline = center of gravity;
+      L4 hard-control thinnest
+    pass_5_process_tree: 6-stage execution logic; interwoven sidechain; fail-closed both ends
+    pass_6_ppp: 12 policies + process spine + per-stage procedures (grounded by 1,410 imperative lines)
+    pass_7_guardrails: 7 failure-prevention · 4 allowed-creativity · 8 forbidden-collapse · 6 escalation
+    pass_8_knowledge_spine: 12 portable heuristics (why/when/when-not/prevents); judgment is the sparsest
+      explicit signal
+    pass_9_graph: 39 nodes, 39 typed directed edges (dependency/authority/causality/mutation/contradiction/runtime_flow)
+    pass_10_runtime_state: this artifact — consolidated rebuildable boot state
