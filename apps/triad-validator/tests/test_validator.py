@@ -131,7 +131,7 @@ class TestSectionChecks:
 
 
 # ---------------------------------------------------------------------------
-# Comma policy (INV-04)
+# Comma policy (Maestro.INV-04)
 # ---------------------------------------------------------------------------
 
 class TestCommaPolicy:
@@ -156,7 +156,7 @@ class TestCommaPolicy:
         assert result.detail["commas_outside_lyrics"] == 0
 
     def test_commas_outside_lyrics_fail(self):
-        # Comma in the Theory metacontainer — INV-04 violation.
+        # Comma in the Theory metacontainer — Maestro.INV-04 violation.
         ust = (
             "[Theory | mode=Dorian, tonal_center=D]\n[Voice]\n[CREW_TAGS]\n"
             "[Road-Map]\n[LYRICS BLOCK]\n\"clean line\"\n"
