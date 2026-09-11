@@ -1,0 +1,182 @@
+# Authority Map v0.1 seed — initial Promotion Matrix rows.
+#
+# Edit here. The loader treats this file as the authoritative source. All
+# rows must satisfy the schema in docs/governance/authority-map-v0.1.md §2:
+#   - All nine fields required.
+#   - scope_plane and authority_tier from the enum sets.
+#   - source_class single ("SC-2") or compound ("SC-2 + SC-3").
+#   - Each narrative field is exactly one sentence.
+#
+# Run `am validate` to check.
+
+version: "0.1.0"
+generated_at: "2026-05-20"
+controlling_principle: >-
+  The Authority Map prevents cross-workspace synthesis from mistaking
+  completeness, polish, recency, or coherence for canon.
+
+rows:
+
+  # ----- ws_3 forensic synthesis seed rows (6) ------------------------------
+
+  - claim_or_artifact: "Technical UST is the canonical null-rich addressable creative superspace"
+    scope_plane: PROJECT_MAESTRO
+    source_class: "SC-2"
+    authority_tier: high_with_qualifier
+    current_status: "Operative project claim with forensic caution against support-artifact substitution."
+    promotion_requirement: "Show replay path from Technical UST as codec/null-address substrate through v5-c support artifacts."
+    blocking_reason: "Risk of treating support artifact statement as sufficient without replay corroboration."
+    downstream_risk_if_promoted_early: "Schema and worker contracts inherit unvalidated assumptions about axis/key semantics."
+    recommended_next_action: "Bind exact Technical UST axis/key/subkey semantics to the worker completion contract."
+
+  - claim_or_artifact: "Creative UST is the downstream output canon"
+    scope_plane: PROJECT_MAESTRO
+    source_class: "SC-2"
+    authority_tier: high_with_qualifier
+    current_status: "Accepted as the Suno-facing downstream shell derived from Technical UST."
+    promotion_requirement: "Preserve its derivative relation to Technical UST in every downstream artifact."
+    blocking_reason: "No blocker for downstream-shell use; blocked only if treated as a peer truth object."
+    downstream_risk_if_promoted_early: "Creative UST collapses the deep worksheet into a Suno-facing prompt format."
+    recommended_next_action: "Use only after Technical UST and SEM admissibility state are bound."
+
+  - claim_or_artifact: "SEM is the concurrent admissibility substrate"
+    scope_plane: PROJECT_MAESTRO
+    source_class: "SC-2 + SC-3"
+    authority_tier: high_with_qualifier
+    current_status: "Operative as a quality runtime claim with unresolved metric-stack relationships."
+    promotion_requirement: "Resolve relations among SEM, SE20, BICDM-20, Q1-Q16, and the G-Card."
+    blocking_reason: "The metric stack and scalar relationships remain unreconciled across workspaces."
+    downstream_risk_if_promoted_early: "Validators double-count, mis-route, or flatten quality gates."
+    recommended_next_action: "Open the SE20 / BICDM / SEM reconciliation docket."
+
+  - claim_or_artifact: "Mosaic Engine v0.1"
+    scope_plane: BRIDGE_PROJECT_WORKSPACE
+    source_class: "SC-4"
+    authority_tier: candidate
+    current_status: "Formal candidate substrate spec, verified by files6 as candidate not canon."
+    promotion_requirement: "Operator adjudication plus replay-backed substrate boundary confirmation."
+    blocking_reason: "Candidate runtime spec emerged in files5 without operator promotion."
+    downstream_risk_if_promoted_early: "Mosaic substrate gets frozen before boundary decisions close."
+    recommended_next_action: "Keep candidate labels in all Day-2 and downstream synthesis."
+
+  - claim_or_artifact: "Maestro v0"
+    scope_plane: BRIDGE_PROJECT_WORKSPACE
+    source_class: "SC-4"
+    authority_tier: candidate
+    current_status: "Formal candidate product frame not yet promoted to canon."
+    promotion_requirement: "Operator adjudication plus distinction from Maestro.Project and Maestro.App."
+    blocking_reason: "Candidate product frame has not been distinguished from runtime/project namespaces."
+    downstream_risk_if_promoted_early: "Maestro app, product, runtime, and project distinctions collapse into one term."
+    recommended_next_action: "Namespace as Maestro.App candidate unless the operator promotes otherwise."
+
+  - claim_or_artifact: "files4 -> files5 -> files6 wiring-recovery chain"
+    scope_plane: WORKSPACE_DEV
+    source_class: "SC-3"
+    authority_tier: high_with_qualifier
+    current_status: "Stable V-and-V chain controlling for wiring-recovery posture."
+    promotion_requirement: "Not applicable as runtime canon; carry forward as Authority Map basis only."
+    blocking_reason: "Verification artifacts control evidence status, not final product definition."
+    downstream_risk_if_promoted_early: "Verification artifacts become architecture instead of governing it."
+    recommended_next_action: "Use as the backbone of Authority Map v0.1 itself."
+
+  # ----- This-session emergent rows -----------------------------------------
+
+  - claim_or_artifact: "apps/triad-validator deterministic Suno-emit gate"
+    scope_plane: PROJECT_MAESTRO
+    source_class: "SC-2"
+    authority_tier: high
+    current_status: "Shipped to MoM/v0 as the first productization slice with 22/22 tests passing."
+    promotion_requirement: "Already promoted as Day-1 artifact-boundary gate within stated scope."
+    blocking_reason: "None for the artifact-boundary scope; broader validator-architectural promotion still gated."
+    downstream_risk_if_promoted_early: "Treating artifact-boundary pass as architectural validity would erase edge-based checks."
+    recommended_next_action: "Add the v5_c_freeze profile and extend to syllable-integrity checks in the next iteration."
+
+  - claim_or_artifact: "ADR-0001 repo layout (apps/, docs/adr, docs/governance, corpus preserved)"
+    scope_plane: WORKSPACE_DEV
+    source_class: "SC-0 + SC-1"
+    authority_tier: high
+    current_status: "Accepted via PR #2 merge into MoM/v0 on Day-1."
+    promotion_requirement: "Already accepted as the rebirth layout convention."
+    blocking_reason: "None within the rebirth repo; cross-repo generalization not in scope."
+    downstream_risk_if_promoted_early: "If treated as universal monorepo law, conflicts with non-rebirth repos using different conventions."
+    recommended_next_action: "Treat as binding within rebirth; revisit only via a new ADR."
+
+  - claim_or_artifact: "ADR-0002 patent-quarantine three-zone boundary"
+    scope_plane: WORKSPACE_DEV
+    source_class: "SC-0"
+    authority_tier: high
+    current_status: "Accepted on Day-2; locks pre-filing material out of the repo via Zone A/B/C classification."
+    promotion_requirement: "Operator filing-status confirmation already received (pre-filing)."
+    blocking_reason: "None; this ADR is the enforcement mechanism."
+    downstream_risk_if_promoted_early: "Without it, Zone B/C material risks accidental commit and forecloses patentability."
+    recommended_next_action: "Build the patent-lint tooling under tools/patent-lint/ when bandwidth allows."
+
+  - claim_or_artifact: "ADR-0003 invariant ID namespacing (Spec.INV-NN)"
+    scope_plane: WORKSPACE_DEV
+    source_class: "SC-0 + SC-1"
+    authority_tier: high
+    current_status: "Accepted on Day-2; resolves the Day-1 INV-04 namespace collision."
+    promotion_requirement: "Already accepted as the cross-spec reference convention."
+    blocking_reason: "None for new artifacts; historical corpus dirs are grandfathered."
+    downstream_risk_if_promoted_early: "If retroactively enforced across grandfathered corpus, churn outweighs clarity gain."
+    recommended_next_action: "Build inv-lint tooling that excludes grandfathered paths when bandwidth allows."
+
+  - claim_or_artifact: "Mosaic.INV-11 bounded-autonomy invariant"
+    scope_plane: BRIDGE_PROJECT_WORKSPACE
+    source_class: "SC-4"
+    authority_tier: candidate
+    current_status: "DRAFT in docs/governance/INV-11-bounded-autonomy.md awaiting operator promotion."
+    promotion_requirement: "Reproduce the n=1 onboarding test with at least one additional fresh AI operator."
+    blocking_reason: "Single-session evidence insufficient for kernel-invariant promotion."
+    downstream_risk_if_promoted_early: "Premature binding of trust enables mandate over-reach across uncalibrated AI operators."
+    recommended_next_action: "Schedule the OOP acceptance test against a second fresh AI for n=2 evidence."
+
+  - claim_or_artifact: "Operator Onboarding Protocol (OOP) Mosaic substrate primitive"
+    scope_plane: BRIDGE_PROJECT_WORKSPACE
+    source_class: "SC-4"
+    authority_tier: candidate
+    current_status: "DRAFT in docs/governance/OOP-operator-onboarding-protocol.md awaiting operator promotion."
+    promotion_requirement: "Pair promotion with Mosaic.INV-11 (the pair gates on the same acceptance test)."
+    blocking_reason: "Mosaic.INV-11 is still candidate; OOP cannot promote ahead of it."
+    downstream_risk_if_promoted_early: "OOP enforced without its pairing invariant produces onboarding without authority boundary."
+    recommended_next_action: "Promote OOP and Mosaic.INV-11 together once the n=2 acceptance test passes."
+
+  - claim_or_artifact: "Maestro v3 protocol documents in docs/protocol/"
+    scope_plane: PROJECT_MAESTRO
+    source_class: "SC-1 + SC-2"
+    authority_tier: high
+    current_status: "Imported as SSOT in PR #3; behaviorally loaded across multiple sessions before commit."
+    promotion_requirement: "Already promoted; the docs are operative canon for v3 protocol behavior."
+    blocking_reason: "None; PR #3 is the formal entry point."
+    downstream_risk_if_promoted_early: "If summarized or paraphrased in downstream artifacts, Maestro.INV-01 is violated."
+    recommended_next_action: "Link to docs/protocol/ from any artifact that needs v3 behavior; never inline excerpts."
+
+  - claim_or_artifact: "Authority Map v0.1 itself (this slice)"
+    scope_plane: WORKSPACE_DEV
+    source_class: "SC-4"
+    authority_tier: candidate
+    current_status: "DRAFT shipping in this PR as the canon-governance discipline for the rebirth."
+    promotion_requirement: "Operator acceptance of the schema, taxonomy, and seed rows."
+    blocking_reason: "Awaiting operator review on the slice's first PR."
+    downstream_risk_if_promoted_early: "Premature promotion freezes the schema before v0.2 evidence-contract pairing lands."
+    recommended_next_action: "Merge the slice PR, then schedule v0.2 evidence-contract pairing for the next iteration."
+
+  - claim_or_artifact: "v4.5.5-clean reconstruction from v4.5.2 + ten REPAIRs"
+    scope_plane: BRIDGE_PROJECT_WORKSPACE
+    source_class: "SC-3 + SC-4"
+    authority_tier: candidate
+    current_status: "Operator-authorized but execution-blocked on the missing create_window source file."
+    promotion_requirement: "Recover the Custom GPT create_window content containing the full REPAIR-01..10 dispositions."
+    blocking_reason: "REPAIR-01..10 dispositions are not available in any file Claude can currently read."
+    downstream_risk_if_promoted_early: "Partial REPAIR application produces a v4.5.5-clean candidate that misses lawful deltas."
+    recommended_next_action: "Operator supplies the create_window content; reconstruction proceeds as a separate slice."
+
+  - claim_or_artifact: "rebirth monorepo as productization home"
+    scope_plane: WORKSPACE_DEV
+    source_class: "SC-0"
+    authority_tier: high
+    current_status: "Active integration target with MoM/v0 as the long-lived branch."
+    promotion_requirement: "Already established by operator on Day-1."
+    blocking_reason: "None; the repo is the working environment."
+    downstream_risk_if_promoted_early: "If treated as the only authoritative location, OneDrive consolidation gets orphaned."
+    recommended_next_action: "Keep OneDrive tombstones synchronized as authoritative source flows here."
